@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f259a23031fb7ef9",
+        "id": "f08111ccc25344e0",
         "type": "tabs",
         "children": [
           {
-            "id": "cd7af74cad389e5a",
+            "id": "3b403c2f47d0eeed",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "excalidraw",
+              "state": {
+                "file": "Computers/Computer Architecture/CPU/Processes/Multi-threaded processes.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Multi-threaded processes"
             }
           }
         ]
@@ -74,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d483fb95c0a6fec1",
@@ -168,19 +171,20 @@
       "templates:Insert template": false
     }
   },
-  "active": "cd7af74cad389e5a",
+  "active": "3b403c2f47d0eeed",
   "lastOpenFiles": [
+    "Miscellaneous/Math Whiteboard.md",
+    "Computers/Computer Architecture/CPU/Processes/Multi-threaded processes.md",
+    "Math/Probability and Statistics/Probability fundamentals/Independent Events.md",
     "Miscellaneous/General OneNote/Data Management U1.one",
     "Miscellaneous/General OneNote/New Section 1.one",
     "Computers/Data Science/Data Management/Relation Schemas and Functional Dependences.md",
     "Computers/Data Science/Data Management/Third Normal Form and Keys.md",
     "Miscellaneous/General OneNote/707BEC1D-EA44-4796-B4BF-52E7F7713529.tmp",
     "Miscellaneous/General OneNote/B0AF8D79-52DD-4182-9687-4C9C9EBDEAE6.tmp",
-    "Miscellaneous/Math Whiteboard.md",
     "Math/Probability and Statistics/Probability fundamentals/Conditional Probability.md",
     "Computers/Data Science/Data Management/Basic Operations Tables.md",
     "Computers/Data Science/Data Management/Armstrong axioms.md",
-    "Math/Probability and Statistics/Probability fundamentals/Independent Events.md",
     "Computers/Data Science/Data Management/Relation Schemas and Functional Dependences.md.a8201ce9.partial",
     "Computers/Data Science/Data Management/Third Normal Form and Keys.md.9f2c8b72.partial",
     "Computers/Data Science/Data Management/Armstrong axioms.md.8846f2f9.partial",
@@ -205,7 +209,6 @@
     "Computers/Computer Architecture/CPU/CPU Introduction.md",
     "Math/Calculus/Derivatives/Gradient and Differentiability.md",
     "Machine Learning/Reinforcement Learning",
-    "Miscellaneous/General OneNote/Probability.one",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613180242_276.png",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613175957_531.png",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250615193942_504.png",
