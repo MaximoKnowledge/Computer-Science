@@ -1,0 +1,223 @@
+{
+  "main": {
+    "id": "520e29c988d9b2a6",
+    "type": "split",
+    "children": [
+      {
+        "id": "f259a23031fb7ef9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cd7af74cad389e5a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c1b27cf7a81bde91",
+    "type": "split",
+    "children": [
+      {
+        "id": "ad4b0ec39e238790",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b16ae22e021a29d7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "4e86ab9fc71b548a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1490e55f88b20d7b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d483fb95c0a6fec1",
+    "type": "split",
+    "children": [
+      {
+        "id": "111dded116871509",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f39b15c8b049dbf4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Physics/Dynamical Systems/Mechanics/Dynamics.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Dynamics"
+            }
+          },
+          {
+            "id": "422eacb38909cab6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Continuous fumctions.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Continuous fumctions"
+            }
+          },
+          {
+            "id": "f1b556490543af09",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "dafb3148344ed8fe",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Computers/Data Science/Data Management/Third Normal Form and Keys.md",
+                "followCursor": true,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Third Normal Form and Keys"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "daily-notes:Open today's daily note": false,
+      "templater-obsidian:Templater": false,
+      "graph:Open graph view": false,
+      "bases:Create new base": false,
+      "templates:Insert template": false
+    }
+  },
+  "active": "cd7af74cad389e5a",
+  "lastOpenFiles": [
+    "Miscellaneous/General OneNote/Data Management U1.one",
+    "Miscellaneous/General OneNote/New Section 1.one",
+    "Computers/Data Science/Data Management/Relation Schemas and Functional Dependences.md",
+    "Computers/Data Science/Data Management/Third Normal Form and Keys.md",
+    "Miscellaneous/General OneNote/707BEC1D-EA44-4796-B4BF-52E7F7713529.tmp",
+    "Miscellaneous/General OneNote/B0AF8D79-52DD-4182-9687-4C9C9EBDEAE6.tmp",
+    "Miscellaneous/Math Whiteboard.md",
+    "Math/Probability and Statistics/Probability fundamentals/Conditional Probability.md",
+    "Computers/Data Science/Data Management/Basic Operations Tables.md",
+    "Computers/Data Science/Data Management/Armstrong axioms.md",
+    "Math/Probability and Statistics/Probability fundamentals/Independent Events.md",
+    "Computers/Data Science/Data Management/Relation Schemas and Functional Dependences.md.a8201ce9.partial",
+    "Computers/Data Science/Data Management/Third Normal Form and Keys.md.9f2c8b72.partial",
+    "Computers/Data Science/Data Management/Armstrong axioms.md.8846f2f9.partial",
+    "Machine Learning/Reinforcement Learning/LLM post-training.md.ae698105.partial",
+    "Computers/Networks/Introduction transmission techniques.md",
+    "Computers/Networks/TCP and UDP.md",
+    "Computers/Networks/DNS.md",
+    "Math/Calculus/Limits/Limits Introduction.md",
+    "Math/Set theory/Inequalities.md",
+    "Math/Calculus/Limits/Continuity.md",
+    "Math/Calculus/Functions/Inverse function, Supremum, Infimum.md",
+    "Math/Calculus/Functions",
+    "Math/Set theory/Elementary number sets.md",
+    "Math/Calculus/Derivatives/Hessian.md",
+    "Math/Calculus/Limits/Ancona notes exercises.md",
+    "Math/Complex numbers/Complex numbers introduction.md",
+    "Computers/Computer Architecture/Operative Systems/Process Creation.md",
+    "Computers/Computer Architecture/Operative Systems/OS System calls and memory protection.md",
+    "Computers/Computer Architecture/Operative Systems/OS Introduction.md",
+    "Computers/Computer Architecture/CPU/Processes/Process Scheduling.md",
+    "Computers/Computer Architecture/CPU/Processes/Scheduling Algorithms.md",
+    "Computers/Computer Architecture/CPU/CPU Introduction.md",
+    "Math/Calculus/Derivatives/Gradient and Differentiability.md",
+    "Machine Learning/Reinforcement Learning",
+    "Miscellaneous/General OneNote/Probability.one",
+    "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613180242_276.png",
+    "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613175957_531.png",
+    "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250615193942_504.png",
+    "Machine Learning/NLP/LLMs/Diffusion Language Models/Dream 7B/Pasted Image 20250615085649_337.png",
+    "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250614105206_253.png",
+    "Machine Learning/NLP/LLMs/LLaDA/Pasted Image 20250613180242_276.png",
+    "Machine Learning/NLP/LLMs/LLaDA/Pasted Image 20250614105206_253.png",
+    "Machine Learning/NLP/LLMs/LLaDA/Pasted Image 20250613175957_531.png",
+    "Computers/Computer Architecture/Risc-V/Untitled.canvas",
+    "Excalidraw/Scripts/Downloaded/Connect elements.svg",
+    "Math/Calculus/Sequences and series/Untitled.canvas",
+    "Computers/Algorithms and Data structures/Algorithms/Dijkstra pseudocode.png",
+    "Untitled.canvas"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "app:open-settings": [],
+  "editor:toggle-checklist-status": [],
+  "obsidian-excalidraw-plugin:insert-LaTeX-symbol": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ]
+}
