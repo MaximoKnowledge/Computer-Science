@@ -18,6 +18,18 @@
               "icon": "excalidraw-icon",
               "title": "Multi-threaded processes"
             }
+          },
+          {
+            "id": "e9b8979194297a08",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Computers/Computer Architecture/CPU/Processes/Scheduling Algorithms.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Scheduling Algorithms"
+            }
           }
         ]
       }
@@ -173,6 +185,7 @@
   },
   "active": "3b403c2f47d0eeed",
   "lastOpenFiles": [
+    "Computers/Computer Architecture/CPU/Processes/Scheduling Algorithms.md",
     "Miscellaneous/Math Whiteboard.md",
     "Computers/Computer Architecture/CPU/Processes/Multi-threaded processes.md",
     "Math/Probability and Statistics/Probability fundamentals/Independent Events.md",
@@ -205,7 +218,6 @@
     "Computers/Computer Architecture/Operative Systems/OS System calls and memory protection.md",
     "Computers/Computer Architecture/Operative Systems/OS Introduction.md",
     "Computers/Computer Architecture/CPU/Processes/Process Scheduling.md",
-    "Computers/Computer Architecture/CPU/Processes/Scheduling Algorithms.md",
     "Computers/Computer Architecture/CPU/CPU Introduction.md",
     "Math/Calculus/Derivatives/Gradient and Differentiability.md",
     "Machine Learning/Reinforcement Learning",
