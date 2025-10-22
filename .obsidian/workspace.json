@@ -13,10 +13,22 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Computers/Computer Architecture/CPU/Processes/Multi-threaded processes.md"
+                "file": "Math/Calculus/Derivatives/Hessian.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Multi-threaded processes"
+              "title": "Hessian"
+            }
+          },
+          {
+            "id": "d4f7f0bc5612eeab",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Math/Calculus/Curves Introduction.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Curves Introduction"
             }
           },
           {
@@ -25,13 +37,38 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Computers/Computer Architecture/CPU/Processes/Scheduling Algorithms.md"
+                "file": "Math/Calculus/Derivatives/Gradient and Differentiability.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Scheduling Algorithms"
+              "title": "Gradient and Differentiability"
+            }
+          },
+          {
+            "id": "de0c0ced4275ecb7",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Computers/Networks/TCP and UDP.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "TCP and UDP"
+            }
+          },
+          {
+            "id": "7d3584ac90f1d03b",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Computers/Networks/Introduction transmission techniques.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Introduction transmission techniques"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -183,10 +220,20 @@
       "templates:Insert template": false
     }
   },
-  "active": "3b403c2f47d0eeed",
+  "active": "de0c0ced4275ecb7",
   "lastOpenFiles": [
-    "Computers/Computer Architecture/CPU/Processes/Scheduling Algorithms.md",
+    "Computers/Networks/Introduction transmission techniques.md",
+    "Computers/Networks/TCP and UDP.md",
     "Miscellaneous/Math Whiteboard.md",
+    "Computers/Networks/DNS.md",
+    "Computers/Networks/Cookies, Sockets and HTTP Introduction.md",
+    "Math/Calculus/Curves Introduction.md",
+    "Math/Calculus/Functions/Inverse function, Supremum, Infimum.md",
+    "Math/Calculus/Derivatives/Gradient and Differentiability.md",
+    "Math/Calculus/Derivatives/Basic theorems of differentiation.md",
+    "Math/Calculus/Derivatives/Single variable derivatives introduction.md",
+    "Computers/Computer Architecture/CPU/Processes/Scheduling Algorithms.md",
+    "Math/Calculus/Derivatives/Hessian.md",
     "Computers/Computer Architecture/CPU/Processes/Multi-threaded processes.md",
     "Math/Probability and Statistics/Probability fundamentals/Independent Events.md",
     "Miscellaneous/General OneNote/Data Management U1.one",
@@ -202,24 +249,14 @@
     "Computers/Data Science/Data Management/Third Normal Form and Keys.md.9f2c8b72.partial",
     "Computers/Data Science/Data Management/Armstrong axioms.md.8846f2f9.partial",
     "Machine Learning/Reinforcement Learning/LLM post-training.md.ae698105.partial",
-    "Computers/Networks/Introduction transmission techniques.md",
-    "Computers/Networks/TCP and UDP.md",
-    "Computers/Networks/DNS.md",
     "Math/Calculus/Limits/Limits Introduction.md",
     "Math/Set theory/Inequalities.md",
     "Math/Calculus/Limits/Continuity.md",
-    "Math/Calculus/Functions/Inverse function, Supremum, Infimum.md",
     "Math/Calculus/Functions",
     "Math/Set theory/Elementary number sets.md",
-    "Math/Calculus/Derivatives/Hessian.md",
     "Math/Calculus/Limits/Ancona notes exercises.md",
     "Math/Complex numbers/Complex numbers introduction.md",
     "Computers/Computer Architecture/Operative Systems/Process Creation.md",
-    "Computers/Computer Architecture/Operative Systems/OS System calls and memory protection.md",
-    "Computers/Computer Architecture/Operative Systems/OS Introduction.md",
-    "Computers/Computer Architecture/CPU/Processes/Process Scheduling.md",
-    "Computers/Computer Architecture/CPU/CPU Introduction.md",
-    "Math/Calculus/Derivatives/Gradient and Differentiability.md",
     "Machine Learning/Reinforcement Learning",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613180242_276.png",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613175957_531.png",
