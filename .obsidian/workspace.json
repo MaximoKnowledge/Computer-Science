@@ -20,55 +20,18 @@
             }
           },
           {
-            "id": "d4f7f0bc5612eeab",
+            "id": "0a2a3e55c663aae8",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Math/Calculus/Curves Introduction.md"
+                "file": "Math/Linear Algebra/Matrices/Eigenvalues and eigenvectors/Eigenvectors and eigenvalues Introduction.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Curves Introduction"
-            }
-          },
-          {
-            "id": "e9b8979194297a08",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Math/Calculus/Derivatives/Gradient and Differentiability.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Gradient and Differentiability"
-            }
-          },
-          {
-            "id": "de0c0ced4275ecb7",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Computers/Networks/TCP and UDP.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "TCP and UDP"
-            }
-          },
-          {
-            "id": "7d3584ac90f1d03b",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Computers/Networks/Introduction transmission techniques.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Introduction transmission techniques"
+              "title": "Eigenvectors and eigenvalues Introduction"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -125,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d483fb95c0a6fec1",
@@ -220,20 +182,23 @@
       "templates:Insert template": false
     }
   },
-  "active": "de0c0ced4275ecb7",
+  "active": "3b403c2f47d0eeed",
   "lastOpenFiles": [
+    "Math/Calculus/Curves Introduction.md",
+    "Math/Linear Algebra/Determinants/Determinants properties.md",
+    "Math/Calculus/Derivatives/Gradient and Differentiability.md",
+    "Math/Linear Algebra/Matrices/Eigenvalues and eigenvectors/Eigenvectors and eigenvalues Introduction.md",
+    "Miscellaneous/Math Whiteboard.md",
+    "Math/Calculus/Derivatives/Hessian.md",
+    "Math/Linear Algebra/Determinants/Determinant Introduction.md",
     "Computers/Networks/Introduction transmission techniques.md",
     "Computers/Networks/TCP and UDP.md",
-    "Miscellaneous/Math Whiteboard.md",
     "Computers/Networks/DNS.md",
     "Computers/Networks/Cookies, Sockets and HTTP Introduction.md",
-    "Math/Calculus/Curves Introduction.md",
     "Math/Calculus/Functions/Inverse function, Supremum, Infimum.md",
-    "Math/Calculus/Derivatives/Gradient and Differentiability.md",
     "Math/Calculus/Derivatives/Basic theorems of differentiation.md",
     "Math/Calculus/Derivatives/Single variable derivatives introduction.md",
     "Computers/Computer Architecture/CPU/Processes/Scheduling Algorithms.md",
-    "Math/Calculus/Derivatives/Hessian.md",
     "Computers/Computer Architecture/CPU/Processes/Multi-threaded processes.md",
     "Math/Probability and Statistics/Probability fundamentals/Independent Events.md",
     "Miscellaneous/General OneNote/Data Management U1.one",
@@ -254,9 +219,6 @@
     "Math/Calculus/Limits/Continuity.md",
     "Math/Calculus/Functions",
     "Math/Set theory/Elementary number sets.md",
-    "Math/Calculus/Limits/Ancona notes exercises.md",
-    "Math/Complex numbers/Complex numbers introduction.md",
-    "Computers/Computer Architecture/Operative Systems/Process Creation.md",
     "Machine Learning/Reinforcement Learning",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613180242_276.png",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613175957_531.png",
