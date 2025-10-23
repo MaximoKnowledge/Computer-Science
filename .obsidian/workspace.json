@@ -4,31 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f08111ccc25344e0",
+        "id": "f259a23031fb7ef9",
         "type": "tabs",
         "children": [
           {
-            "id": "3b403c2f47d0eeed",
+            "id": "cd7af74cad389e5a",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Computers/Computer Architecture/CPU/Processes/Multi-threaded processes.md"
+                "file": "Math/Linear Algebra/Linear transformations/Kernel and Range of linear transformations.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Multi-threaded processes"
-            }
-          },
-          {
-            "id": "e9b8979194297a08",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Computers/Computer Architecture/CPU/Processes/Scheduling Algorithms.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Scheduling Algorithms"
+              "title": "Kernel and Range of linear transformations"
             }
           }
         ]
@@ -183,12 +171,11 @@
       "templates:Insert template": false
     }
   },
-  "active": "3b403c2f47d0eeed",
+  "active": "0d9ddd6ca8f070f6",
   "lastOpenFiles": [
-    "Computers/Computer Architecture/CPU/Processes/Scheduling Algorithms.md",
     "Miscellaneous/Math Whiteboard.md",
+    "Math/Linear Algebra/Linear transformations/Kernel and Range of linear transformations.md",
     "Computers/Computer Architecture/CPU/Processes/Multi-threaded processes.md",
-    "Math/Probability and Statistics/Probability fundamentals/Independent Events.md",
     "Miscellaneous/General OneNote/Data Management U1.one",
     "Miscellaneous/General OneNote/New Section 1.one",
     "Computers/Data Science/Data Management/Relation Schemas and Functional Dependences.md",
@@ -198,6 +185,7 @@
     "Math/Probability and Statistics/Probability fundamentals/Conditional Probability.md",
     "Computers/Data Science/Data Management/Basic Operations Tables.md",
     "Computers/Data Science/Data Management/Armstrong axioms.md",
+    "Math/Probability and Statistics/Probability fundamentals/Independent Events.md",
     "Computers/Data Science/Data Management/Relation Schemas and Functional Dependences.md.a8201ce9.partial",
     "Computers/Data Science/Data Management/Third Normal Form and Keys.md.9f2c8b72.partial",
     "Computers/Data Science/Data Management/Armstrong axioms.md.8846f2f9.partial",
@@ -218,8 +206,8 @@
     "Computers/Computer Architecture/Operative Systems/OS System calls and memory protection.md",
     "Computers/Computer Architecture/Operative Systems/OS Introduction.md",
     "Computers/Computer Architecture/CPU/Processes/Process Scheduling.md",
+    "Computers/Computer Architecture/CPU/Processes/Scheduling Algorithms.md",
     "Computers/Computer Architecture/CPU/CPU Introduction.md",
-    "Math/Calculus/Derivatives/Gradient and Differentiability.md",
     "Machine Learning/Reinforcement Learning",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613180242_276.png",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613175957_531.png",
