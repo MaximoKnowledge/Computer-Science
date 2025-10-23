@@ -4,31 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "f08111ccc25344e0",
+        "id": "46bbe92d3de39fc1",
         "type": "tabs",
         "children": [
           {
-            "id": "0a2a3e55c663aae8",
+            "id": "7fde43073d7f7131",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Math/Calculus/Derivatives/Gradient and Differentiability.md"
+                "file": "Computers/Computer Architecture/CPU/Processes/Multi-threaded processes.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Gradient and Differentiability"
+              "title": "Multi-threaded processes"
             }
           },
           {
-            "id": "f40a805f099e2f13",
+            "id": "e43cce27e574f419",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Machine Learning/Automatic Differentiation/Derivatives and Jacobians as linear maps.md"
+                "file": "Computers/Computer Architecture/CPU/Processes/Process and Thread Synchronization.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Derivatives and Jacobians as linear maps"
+              "title": "Process and Thread Synchronization"
+            }
+          },
+          {
+            "id": "135d5b6581bec818",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Computers/Programming/Java/Syncronization.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Syncronization"
             }
           }
         ],
@@ -183,14 +195,19 @@
       "templates:Insert template": false
     }
   },
-  "active": "f40a805f099e2f13",
+  "active": "e43cce27e574f419",
   "lastOpenFiles": [
-    "Miscellaneous/Images/Pasted Image 20251023120719_694.png",
+    "Computers/Programming/Java/Syncronization.md",
+    "Computers/Computer Architecture/CPU/Processes/Multi-threaded processes.md",
+    "Computers/Computer Architecture/CPU/Processes/Process and Thread Synchronization.md",
     "Miscellaneous/Math Whiteboard.md",
+    "Math/Probability and Statistics/Discrete Distributions/Discrete Random Variables Introduction.md",
+    "Math/Probability and Statistics/Discrete Distributions",
+    "Math/Calculus/Derivatives/Gradient and Differentiability.md",
     "Machine Learning/Automatic Differentiation/Derivatives and Jacobians as linear maps.md",
+    "Miscellaneous/Images/Pasted Image 20251023120719_694.png",
     "Machine Learning/Automatic Differentiation/Automatic Differentiation Introduction.md",
     "Machine Learning/Automatic Differentiation/Forward and Reverse mode Automatic Differentiation.md",
-    "Math/Calculus/Derivatives/Gradient and Differentiability.md",
     "Pasted Image 20251023115821_600.png",
     "Miscellaneous/Images",
     "Math/Calculus/Derivatives/Hessian.md",
@@ -206,7 +223,6 @@
     "Math/Calculus/Functions/Inverse function, Supremum, Infimum.md",
     "Math/Calculus/Derivatives/Single variable derivatives introduction.md",
     "Computers/Computer Architecture/CPU/Processes/Scheduling Algorithms.md",
-    "Computers/Computer Architecture/CPU/Processes/Multi-threaded processes.md",
     "Math/Probability and Statistics/Probability fundamentals/Independent Events.md",
     "Miscellaneous/General OneNote/Data Management U1.one",
     "Miscellaneous/General OneNote/New Section 1.one",
@@ -215,13 +231,10 @@
     "Miscellaneous/General OneNote/707BEC1D-EA44-4796-B4BF-52E7F7713529.tmp",
     "Miscellaneous/General OneNote/B0AF8D79-52DD-4182-9687-4C9C9EBDEAE6.tmp",
     "Math/Probability and Statistics/Probability fundamentals/Conditional Probability.md",
-    "Computers/Data Science/Data Management/Basic Operations Tables.md",
-    "Computers/Data Science/Data Management/Armstrong axioms.md",
     "Computers/Data Science/Data Management/Relation Schemas and Functional Dependences.md.a8201ce9.partial",
     "Computers/Data Science/Data Management/Third Normal Form and Keys.md.9f2c8b72.partial",
     "Computers/Data Science/Data Management/Armstrong axioms.md.8846f2f9.partial",
     "Machine Learning/Reinforcement Learning/LLM post-training.md.ae698105.partial",
-    "Math/Calculus/Functions",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613180242_276.png",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613175957_531.png",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250615193942_504.png",
@@ -231,7 +244,6 @@
     "Machine Learning/NLP/LLMs/LLaDA/Pasted Image 20250614105206_253.png",
     "Machine Learning/NLP/LLMs/LLaDA/Pasted Image 20250613175957_531.png",
     "Computers/Computer Architecture/Risc-V/Untitled.canvas",
-    "Excalidraw/Scripts/Downloaded/Connect elements.svg",
     "Math/Calculus/Sequences and series/Untitled.canvas",
     "Untitled.canvas"
   ]
