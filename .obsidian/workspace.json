@@ -8,30 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3b403c2f47d0eeed",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Math/Calculus/Derivatives/Hessian.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Hessian"
-            }
-          },
-          {
             "id": "0a2a3e55c663aae8",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Math/Linear Algebra/Matrices/Eigenvalues and eigenvectors/Eigenvectors and eigenvalues Introduction.md"
+                "file": "Math/Calculus/Derivatives/Gradient and Differentiability.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Eigenvectors and eigenvalues Introduction"
+              "title": "Gradient and Differentiability"
+            }
+          },
+          {
+            "id": "f40a805f099e2f13",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Machine Learning/Automatic Differentiation/Derivatives and Jacobians as linear maps.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Derivatives and Jacobians as linear maps"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,21 +183,27 @@
       "templates:Insert template": false
     }
   },
-  "active": "3b403c2f47d0eeed",
+  "active": "f40a805f099e2f13",
   "lastOpenFiles": [
+    "Miscellaneous/Images/Pasted Image 20251023120719_694.png",
+    "Miscellaneous/Math Whiteboard.md",
+    "Machine Learning/Automatic Differentiation/Derivatives and Jacobians as linear maps.md",
+    "Machine Learning/Automatic Differentiation/Automatic Differentiation Introduction.md",
+    "Machine Learning/Automatic Differentiation/Forward and Reverse mode Automatic Differentiation.md",
+    "Math/Calculus/Derivatives/Gradient and Differentiability.md",
+    "Pasted Image 20251023115821_600.png",
+    "Miscellaneous/Images",
+    "Math/Calculus/Derivatives/Hessian.md",
+    "Math/Calculus/Derivatives/Basic theorems of differentiation.md",
+    "Math/Linear Algebra/Matrices/Eigenvalues and eigenvectors/Eigenvectors and eigenvalues Introduction.md",
     "Math/Calculus/Curves Introduction.md",
     "Math/Linear Algebra/Determinants/Determinants properties.md",
-    "Math/Calculus/Derivatives/Gradient and Differentiability.md",
-    "Math/Linear Algebra/Matrices/Eigenvalues and eigenvectors/Eigenvectors and eigenvalues Introduction.md",
-    "Miscellaneous/Math Whiteboard.md",
-    "Math/Calculus/Derivatives/Hessian.md",
     "Math/Linear Algebra/Determinants/Determinant Introduction.md",
     "Computers/Networks/Introduction transmission techniques.md",
     "Computers/Networks/TCP and UDP.md",
     "Computers/Networks/DNS.md",
     "Computers/Networks/Cookies, Sockets and HTTP Introduction.md",
     "Math/Calculus/Functions/Inverse function, Supremum, Infimum.md",
-    "Math/Calculus/Derivatives/Basic theorems of differentiation.md",
     "Math/Calculus/Derivatives/Single variable derivatives introduction.md",
     "Computers/Computer Architecture/CPU/Processes/Scheduling Algorithms.md",
     "Computers/Computer Architecture/CPU/Processes/Multi-threaded processes.md",
@@ -214,12 +221,7 @@
     "Computers/Data Science/Data Management/Third Normal Form and Keys.md.9f2c8b72.partial",
     "Computers/Data Science/Data Management/Armstrong axioms.md.8846f2f9.partial",
     "Machine Learning/Reinforcement Learning/LLM post-training.md.ae698105.partial",
-    "Math/Calculus/Limits/Limits Introduction.md",
-    "Math/Set theory/Inequalities.md",
-    "Math/Calculus/Limits/Continuity.md",
     "Math/Calculus/Functions",
-    "Math/Set theory/Elementary number sets.md",
-    "Machine Learning/Reinforcement Learning",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613180242_276.png",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613175957_531.png",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250615193942_504.png",
@@ -231,7 +233,6 @@
     "Computers/Computer Architecture/Risc-V/Untitled.canvas",
     "Excalidraw/Scripts/Downloaded/Connect elements.svg",
     "Math/Calculus/Sequences and series/Untitled.canvas",
-    "Computers/Algorithms and Data structures/Algorithms/Dijkstra pseudocode.png",
     "Untitled.canvas"
   ]
 }
