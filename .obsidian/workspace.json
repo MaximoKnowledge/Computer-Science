@@ -4,47 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "46bbe92d3de39fc1",
+        "id": "6efa04a0e6053983",
         "type": "tabs",
         "children": [
           {
-            "id": "7fde43073d7f7131",
+            "id": "7770ba1989786cde",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "bases",
               "state": {
-                "file": "Computers/Computer Architecture/CPU/Processes/Multi-threaded processes.md"
+                "file": "Books.base",
+                "viewName": "Table"
               },
-              "icon": "excalidraw-icon",
-              "title": "Multi-threaded processes"
-            }
-          },
-          {
-            "id": "e43cce27e574f419",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Computers/Computer Architecture/CPU/Processes/Process and Thread Synchronization.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Process and Thread Synchronization"
-            }
-          },
-          {
-            "id": "135d5b6581bec818",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Computers/Programming/Java/Syncronization.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Syncronization"
+              "icon": "lucide-layout-grid",
+              "title": "Books"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,12 +171,16 @@
       "templates:Insert template": false
     }
   },
-  "active": "e43cce27e574f419",
+  "active": "7770ba1989786cde",
   "lastOpenFiles": [
+    "Bibliography/Books/Graph ML/Graph Machine Learning Take graph data to the next level.pdf",
+    "Books.base",
+    "Machine Learning/Deep Learning/Drawing 2025-10-24 09.50.27.excalidraw.md",
+    "Miscellaneous/Math Whiteboard.md",
+    "Machine Learning/Deep Learning",
     "Computers/Programming/Java/Syncronization.md",
     "Computers/Computer Architecture/CPU/Processes/Multi-threaded processes.md",
     "Computers/Computer Architecture/CPU/Processes/Process and Thread Synchronization.md",
-    "Miscellaneous/Math Whiteboard.md",
     "Math/Probability and Statistics/Discrete Distributions/Discrete Random Variables Introduction.md",
     "Math/Probability and Statistics/Discrete Distributions",
     "Math/Calculus/Derivatives/Gradient and Differentiability.md",
@@ -227,14 +207,10 @@
     "Miscellaneous/General OneNote/Data Management U1.one",
     "Miscellaneous/General OneNote/New Section 1.one",
     "Computers/Data Science/Data Management/Relation Schemas and Functional Dependences.md",
-    "Computers/Data Science/Data Management/Third Normal Form and Keys.md",
     "Miscellaneous/General OneNote/707BEC1D-EA44-4796-B4BF-52E7F7713529.tmp",
     "Miscellaneous/General OneNote/B0AF8D79-52DD-4182-9687-4C9C9EBDEAE6.tmp",
-    "Math/Probability and Statistics/Probability fundamentals/Conditional Probability.md",
     "Computers/Data Science/Data Management/Relation Schemas and Functional Dependences.md.a8201ce9.partial",
     "Computers/Data Science/Data Management/Third Normal Form and Keys.md.9f2c8b72.partial",
-    "Computers/Data Science/Data Management/Armstrong axioms.md.8846f2f9.partial",
-    "Machine Learning/Reinforcement Learning/LLM post-training.md.ae698105.partial",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613180242_276.png",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613175957_531.png",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250615193942_504.png",

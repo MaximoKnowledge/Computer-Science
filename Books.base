@@ -1,0 +1,14 @@
+views:
+  - type: cards
+    name: Table
+    filters:
+      and:
+        - file.inFolder("Bibliography/Books")
+    order:
+      - file.name
+      - file.folder
+    sort:
+      - property: file.folder
+        direction: ASC
+    imageAspectRatio: 1.15
+    cardSize: 320
