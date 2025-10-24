@@ -11,16 +11,28 @@
             "id": "7770ba1989786cde",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "excalidraw",
               "state": {
-                "file": "Books.base",
-                "viewName": "Table"
+                "file": "Machine Learning/Deep Learning/Neural Networks Introduction.md"
               },
-              "icon": "lucide-layout-grid",
-              "title": "Books"
+              "icon": "excalidraw-icon",
+              "title": "Neural Networks Introduction"
+            }
+          },
+          {
+            "id": "59f9325e106a83cf",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Machine Learning/Deep Learning/Deep Learning Optimization Algorithms.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Deep Learning Optimization Algorithms"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d483fb95c0a6fec1",
@@ -141,17 +154,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computers/Data Science/Data Management/Third Normal Form and Keys.md",
+                "file": "Machine Learning/Deep Learning/Neural Networks Introduction.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Third Normal Form and Keys"
+              "title": "Outline of Neural Networks Introduction"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -171,12 +184,13 @@
       "templates:Insert template": false
     }
   },
-  "active": "7770ba1989786cde",
+  "active": "59f9325e106a83cf",
   "lastOpenFiles": [
-    "Bibliography/Books/Graph ML/Graph Machine Learning Take graph data to the next level.pdf",
-    "Books.base",
-    "Machine Learning/Deep Learning/Drawing 2025-10-24 09.50.27.excalidraw.md",
     "Miscellaneous/Math Whiteboard.md",
+    "Machine Learning/Deep Learning/Deep Learning Optimization Algorithms.md",
+    "Machine Learning/Deep Learning/Neural Networks Introduction.md",
+    "Books.base",
+    "Bibliography/Books/Graph ML/Graph Machine Learning Take graph data to the next level.pdf",
     "Machine Learning/Deep Learning",
     "Computers/Programming/Java/Syncronization.md",
     "Computers/Computer Architecture/CPU/Processes/Multi-threaded processes.md",
@@ -210,7 +224,6 @@
     "Miscellaneous/General OneNote/707BEC1D-EA44-4796-B4BF-52E7F7713529.tmp",
     "Miscellaneous/General OneNote/B0AF8D79-52DD-4182-9687-4C9C9EBDEAE6.tmp",
     "Computers/Data Science/Data Management/Relation Schemas and Functional Dependences.md.a8201ce9.partial",
-    "Computers/Data Science/Data Management/Third Normal Form and Keys.md.9f2c8b72.partial",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613180242_276.png",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613175957_531.png",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250615193942_504.png",
