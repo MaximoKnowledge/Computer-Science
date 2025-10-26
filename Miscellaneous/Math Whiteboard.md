@@ -1,8 +1,6 @@
-$J(W,b)=\frac{1}{m}\sum^m_{i=1} \mathcal{L} (\hat{y}^{(i)}, y^{(i)})$
+$\prod^n_{j=1} \frac{1}{\sqrt{ 2\pi }σ_{j}}e^{-\left( \frac{(x_{j}-μ_{j})^2}{2σ_{j}^2} \right)}$
 $$
 \displaylines{
-b^{[l]}=\left[\begin{matrix}
-b_{0}^l \\ b_{1}^l \\ \vdots \\ b_{n^{[l]}}^l
-\end{matrix}  \right]
+W=W-\frac{VdW\text{corr}}{\sqrt{SdW\text{corr} }}
 }
 $$

@@ -177,7 +177,7 @@ gMuIGefc: https://arxiv.org/pdf/2505.15809
 
 tnOADQTY: obsidian://open?vault=Computer%20Science&file=Machine%20Learning%2FNLP%2FLLMs%2FLLaDA
 
-P1Nyiu1p: [[Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/LLaDA.md#^Lb87oGDH]]
+P1Nyiu1p: [[LLaDA#^Lb87oGDH]]
 
 %%
 ## Drawing
