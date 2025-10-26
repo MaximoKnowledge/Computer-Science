@@ -13,10 +13,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Math/Linear Algebra/Linear transformations/Kernel and Range of linear transformations.md"
+                "file": "Physics/Dynamical Systems/Thermodynamics/First law of thermodynamics.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Kernel and Range of linear transformations"
+              "title": "First law of thermodynamics"
             }
           }
         ]
@@ -76,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d483fb95c0a6fec1",
@@ -171,9 +170,27 @@
       "templates:Insert template": false
     }
   },
-  "active": "0d9ddd6ca8f070f6",
+  "active": "e3e3b005e445fcd6",
   "lastOpenFiles": [
+    "Physics/Dynamical Systems/Thermodynamics/First law of thermodynamics.md",
     "Miscellaneous/Math Whiteboard.md",
+    "Physics/Eletromagnetism/Electric potential energy.md",
+    "Physics/Eletromagnetism/Electromagnetism introduction.md",
+    "Physics/Eletromagnetism/Magnetic fields and Electric Current.md",
+    "Physics/Eletromagnetism/Faraday law.md",
+    "Physics/Dynamical Systems/Thermodynamics/Introduction Thermodynamics.md",
+    "Physics/Dynamical Systems/Thermodynamics/Thermal Machines.md",
+    "First law of thermodynamics.md",
+    "Physics/Introduction Physics.md",
+    "Physics/Modern Physics/Double slit experiment.md",
+    "Physics/Modern Physics/Heisenberg uncertainty principle.md",
+    "Physics/Eletromagnetism/Maxwell equations and Electromagnetic waves.md",
+    "Physics/Eletromagnetism/Electromagnetic waves.md",
+    "Physics/Dynamical Systems/Mechanics/Kinematics.md",
+    "Physics/Dynamical Systems/Mechanics/Dynamics.md",
+    "Physics/Dynamical Systems/Mechanics/Collisions.md",
+    "Physics/Dynamical Systems/Gases/Introduction Gases.md",
+    "Physics/Dynamical Systems/Fluids/Fluids Introduction.md",
     "Math/Linear Algebra/Linear transformations/Kernel and Range of linear transformations.md",
     "Computers/Computer Architecture/CPU/Processes/Multi-threaded processes.md",
     "Miscellaneous/General OneNote/Data Management U1.one",
@@ -185,29 +202,11 @@
     "Math/Probability and Statistics/Probability fundamentals/Conditional Probability.md",
     "Computers/Data Science/Data Management/Basic Operations Tables.md",
     "Computers/Data Science/Data Management/Armstrong axioms.md",
-    "Math/Probability and Statistics/Probability fundamentals/Independent Events.md",
     "Computers/Data Science/Data Management/Relation Schemas and Functional Dependences.md.a8201ce9.partial",
     "Computers/Data Science/Data Management/Third Normal Form and Keys.md.9f2c8b72.partial",
     "Computers/Data Science/Data Management/Armstrong axioms.md.8846f2f9.partial",
     "Machine Learning/Reinforcement Learning/LLM post-training.md.ae698105.partial",
-    "Computers/Networks/Introduction transmission techniques.md",
-    "Computers/Networks/TCP and UDP.md",
-    "Computers/Networks/DNS.md",
-    "Math/Calculus/Limits/Limits Introduction.md",
-    "Math/Set theory/Inequalities.md",
-    "Math/Calculus/Limits/Continuity.md",
-    "Math/Calculus/Functions/Inverse function, Supremum, Infimum.md",
     "Math/Calculus/Functions",
-    "Math/Set theory/Elementary number sets.md",
-    "Math/Calculus/Derivatives/Hessian.md",
-    "Math/Calculus/Limits/Ancona notes exercises.md",
-    "Math/Complex numbers/Complex numbers introduction.md",
-    "Computers/Computer Architecture/Operative Systems/Process Creation.md",
-    "Computers/Computer Architecture/Operative Systems/OS System calls and memory protection.md",
-    "Computers/Computer Architecture/Operative Systems/OS Introduction.md",
-    "Computers/Computer Architecture/CPU/Processes/Process Scheduling.md",
-    "Computers/Computer Architecture/CPU/Processes/Scheduling Algorithms.md",
-    "Computers/Computer Architecture/CPU/CPU Introduction.md",
     "Machine Learning/Reinforcement Learning",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613180242_276.png",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613175957_531.png",
