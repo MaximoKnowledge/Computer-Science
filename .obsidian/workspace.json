@@ -4,19 +4,34 @@
     "type": "split",
     "children": [
       {
+<<<<<<< HEAD
         "id": "f259a23031fb7ef9",
         "type": "tabs",
         "children": [
           {
             "id": "cd7af74cad389e5a",
+=======
+        "id": "18092a485997af87",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "193dad58fc4df890",
+>>>>>>> 891c8556da26498f29da60f654c46ae08be8e91d
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
+<<<<<<< HEAD
                 "file": "Physics/Dynamical Systems/Thermodynamics/First law of thermodynamics.md"
               },
               "icon": "excalidraw-icon",
               "title": "First law of thermodynamics"
+=======
+                "file": "Machine Learning/Unsupervised Learning/Anomaly Detection.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Anomaly Detection"
+>>>>>>> 891c8556da26498f29da60f654c46ae08be8e91d
             }
           }
         ]
@@ -140,17 +155,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computers/Data Science/Data Management/Third Normal Form and Keys.md",
+                "file": "Machine Learning/Deep Learning/Neural Networks Introduction.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Third Normal Form and Keys"
+              "title": "Outline of Neural Networks Introduction"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -170,6 +185,7 @@
       "templates:Insert template": false
     }
   },
+<<<<<<< HEAD
   "active": "e3e3b005e445fcd6",
   "lastOpenFiles": [
     "Physics/Dynamical Systems/Thermodynamics/First law of thermodynamics.md",
@@ -208,18 +224,58 @@
     "Machine Learning/Reinforcement Learning/LLM post-training.md.ae698105.partial",
     "Math/Calculus/Functions",
     "Machine Learning/Reinforcement Learning",
+=======
+  "active": "193dad58fc4df890",
+  "lastOpenFiles": [
+    "Machine Learning/Supervised Learning/NLP/LLMs/Confident Adaptative Language Modeling.md",
+    "Machine Learning/Unsupervised Learning/Anomaly Detection.md",
+    "Machine Learning/Unsupervised Learning/K-means.md",
+    "Miscellaneous/Math Whiteboard.md",
+    "Machine Learning/Supervised Learning",
+    "Machine Learning/Generative Models",
+    "Machine Learning/Unsupervised Learning",
+    "Machine Learning/Supervised Learning/Deep Learning/Batch Normalization.md",
+    "Machine Learning/Supervised Learning/Computer Vision/Siamese Network and Style Transfer.md",
+    "Machine Learning/Supervised Learning/Computer Vision/Convolution Basics.md",
+    "Machine Learning/Deep Learning/Drawing 2025-10-26 07.51.35.excalidraw.md",
+    "Machine Learning/Supervised Learning/Deep Learning/ML projects tips.md",
+    "Machine Learning/Supervised Learning/Deep Learning/Deep Learning Optimization Algorithms.md",
+    "Machine Learning/Supervised Learning/Deep Learning/Neural Networks Introduction.md",
+    "Physics/Dynamical Systems/Thermodynamics/First law of thermodynamics.md",
+    "Physics/Dynamical Systems/Thermodynamics/Thermal Machines.md",
+    "Physics/Dynamical Systems/Thermodynamics/Introduction Thermodynamics.md",
+    "Physics/Dynamical Systems/Mechanics/Kinematics.md",
+    "Physics/Dynamical Systems/Mechanics/Dynamics.md",
+    "Computers/Networks/TCP and UDP.md",
+    "Bibliography/Books.base",
+    "Bibliography/Books/Graph ML/Graph Machine Learning Take graph data to the next level.pdf",
+    "Machine Learning/Supervised Learning/Deep Learning",
+    "Computers/Programming/Java/Syncronization.md",
+    "Computers/Computer Architecture/CPU/Processes/Multi-threaded processes.md",
+    "Computers/Computer Architecture/CPU/Processes/Process and Thread Synchronization.md",
+    "Math/Probability and Statistics/Discrete Distributions/Discrete Random Variables Introduction.md",
+    "Math/Probability and Statistics/Discrete Distributions",
+    "Math/Calculus/Derivatives/Gradient and Differentiability.md",
+    "Machine Learning/Automatic Differentiation/Derivatives and Jacobians as linear maps.md",
+    "Miscellaneous/Images/Pasted Image 20251023120719_694.png",
+    "Machine Learning/Automatic Differentiation/Automatic Differentiation Introduction.md",
+    "Machine Learning/Automatic Differentiation/Forward and Reverse mode Automatic Differentiation.md",
+    "Pasted Image 20251023115821_600.png",
+    "Miscellaneous/Images",
+    "Math/Calculus/Derivatives/Hessian.md",
+    "Miscellaneous/General OneNote/Data Management U1.one",
+    "Miscellaneous/General OneNote/New Section 1.one",
+>>>>>>> 891c8556da26498f29da60f654c46ae08be8e91d
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613180242_276.png",
-    "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613175957_531.png",
-    "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250615193942_504.png",
+    "Machine Learning/Supervised Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613175957_531.png",
+    "Machine Learning/Supervised Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250615193942_504.png",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/Dream 7B/Pasted Image 20250615085649_337.png",
-    "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250614105206_253.png",
+    "Machine Learning/Supervised Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250614105206_253.png",
     "Machine Learning/NLP/LLMs/LLaDA/Pasted Image 20250613180242_276.png",
     "Machine Learning/NLP/LLMs/LLaDA/Pasted Image 20250614105206_253.png",
     "Machine Learning/NLP/LLMs/LLaDA/Pasted Image 20250613175957_531.png",
     "Computers/Computer Architecture/Risc-V/Untitled.canvas",
-    "Excalidraw/Scripts/Downloaded/Connect elements.svg",
     "Math/Calculus/Sequences and series/Untitled.canvas",
-    "Computers/Algorithms and Data structures/Algorithms/Dijkstra pseudocode.png",
     "Untitled.canvas"
   ]
 }
