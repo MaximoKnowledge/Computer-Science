@@ -4,19 +4,34 @@
     "type": "split",
     "children": [
       {
+<<<<<<< HEAD
         "id": "6e56faa8b5168874",
         "type": "tabs",
         "children": [
           {
             "id": "31a2792ceb9ddb4d",
+=======
+        "id": "3c8fcc3a6f0ba765",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5994fa4e96dcd64e",
+>>>>>>> 4cdd09e5dfb05ba0a4ecc07a72cde85f8a850b85
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
+<<<<<<< HEAD
                 "file": "Computers/Computer Architecture/CPU/Processes/Process and Thread Synchronization.md"
               },
               "icon": "excalidraw-icon",
               "title": "Process and Thread Synchronization"
+=======
+                "file": "Machine Learning/Supervised Learning/Computer Vision/Convolution Basics.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Convolution Basics"
+>>>>>>> 4cdd09e5dfb05ba0a4ecc07a72cde85f8a850b85
             }
           }
         ]
@@ -141,17 +156,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Deep Learning/Neural Networks Introduction.md",
+                "file": "Computers/Data Science/Data Management/Third Normal Form and Keys.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Neural Networks Introduction"
+              "title": "Outline of Third Normal Form and Keys"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -171,6 +186,7 @@
       "templates:Insert template": false
     }
   },
+<<<<<<< HEAD
   "active": "31a2792ceb9ddb4d",
   "lastOpenFiles": [
     "Miscellaneous/Math Whiteboard.md",
@@ -188,12 +204,15 @@
     "Machine Learning/Unsupervised Learning",
     "Machine Learning/Supervised Learning/Deep Learning/Batch Normalization.md",
     "Machine Learning/Supervised Learning/Computer Vision/Siamese Network and Style Transfer.md",
+=======
+  "active": "5994fa4e96dcd64e",
+  "lastOpenFiles": [
+    "Miscellaneous/Math Whiteboard.md",
+>>>>>>> 4cdd09e5dfb05ba0a4ecc07a72cde85f8a850b85
     "Machine Learning/Supervised Learning/Computer Vision/Convolution Basics.md",
-    "Machine Learning/Deep Learning/Drawing 2025-10-26 07.51.35.excalidraw.md",
-    "Machine Learning/Supervised Learning/Deep Learning/ML projects tips.md",
-    "Machine Learning/Supervised Learning/Deep Learning/Deep Learning Optimization Algorithms.md",
-    "Machine Learning/Supervised Learning/Deep Learning/Neural Networks Introduction.md",
+    "Machine Learning/Reinforcement Learning/LLM post-training.md",
     "Physics/Dynamical Systems/Thermodynamics/First law of thermodynamics.md",
+<<<<<<< HEAD
     "Physics/Dynamical Systems/Thermodynamics/Thermal Machines.md",
     "Physics/Dynamical Systems/Thermodynamics/Introduction Thermodynamics.md",
     "Physics/Dynamical Systems/Mechanics/Kinematics.md",
@@ -213,12 +232,50 @@
     "Miscellaneous/General OneNote/New Section 1.one",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613180242_276.png",
     "Machine Learning/Supervised Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613175957_531.png",
+=======
+    "Machine Learning/Unsupervised Learning/K-means.md",
+    "Machine Learning/Unsupervised Learning/Anomaly Detection.md",
+    "Machine Learning/Unsupervised Learning",
+    "Miscellaneous/Images/Pasted Image 20251023120719_694.png",
+    "Miscellaneous/Images",
+    "Math/Probability and Statistics/Discrete Distributions/Discrete Random Variables Introduction.md",
+    "Math/Probability and Statistics/Discrete Distributions",
+>>>>>>> 4cdd09e5dfb05ba0a4ecc07a72cde85f8a850b85
     "Machine Learning/Supervised Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250615193942_504.png",
-    "Machine Learning/NLP/LLMs/Diffusion Language Models/Dream 7B/Pasted Image 20250615085649_337.png",
     "Machine Learning/Supervised Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250614105206_253.png",
+    "Machine Learning/Supervised Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613175957_531.png",
+    "Machine Learning/Supervised Learning/NLP/LLMs/Diffusion Language Models/LLaDA/LLaDA.md",
+    "Machine Learning/Supervised Learning/NLP/LLMs/Diffusion Language Models/Multimodal Large Diffusion Language Models MMaDA.md",
+    "Machine Learning/Supervised Learning/NLP/LLMs/Diffusion Language Models/LLaDA",
+    "Machine Learning/Supervised Learning/NLP/LLMs/Diffusion Language Models/Dream 7B.md",
+    "Machine Learning/Supervised Learning/NLP/LLMs/Diffusion Language Models",
+    "Machine Learning/Supervised Learning/NLP/LLMs/Confident Adaptative Language Modeling.md",
+    "Machine Learning/Supervised Learning/Computer Vision/ViT/ViT.md",
+    "Machine Learning/Supervised Learning/Computer Vision/CLIP/CLIP.md",
+    "Machine Learning/Supervised Learning/Classical ML/Decision Trees/Decision Trees introduction.md",
+    "Machine Learning/Supervised Learning/NLP/LLMs",
+    "Machine Learning/Supervised Learning/Deep Learning/ML projects tips.md",
+    "Machine Learning/Supervised Learning/Deep Learning/Neural Networks Introduction.md",
+    "Machine Learning/Supervised Learning/Deep Learning/Batch Normalization.md",
+    "Machine Learning/Supervised Learning/Deep Learning/Deep Learning Optimization Algorithms.md",
+    "Machine Learning/Supervised Learning/Computer Vision/ViT",
+    "Machine Learning/Supervised Learning/Computer Vision/Siamese Network and Style Transfer.md",
+    "Machine Learning/Supervised Learning/Computer Vision/CLIP",
+    "Machine Learning/Supervised Learning/Classical ML/Decision Trees",
+    "Machine Learning/Supervised Learning/NLP",
+    "Machine Learning/Generative Models/Diffusion Models/Structured Denoising Diffusion Models in Discrete State-Spaces.md",
+    "Machine Learning/Generative Models/Diffusion Models/Deep Unsupervised Learning using Nonequilibrium Thermodynamics.md",
+    "Computers/Computer Architecture/CPU/Processes/Process and Thread Synchronization.md",
+    "Physics/Eletromagnetism/Electric potential energy.md",
+    "Physics/Eletromagnetism/Electromagnetism introduction.md",
+    "Physics/Eletromagnetism/Magnetic fields and Electric Current.md",
+    "Physics/Eletromagnetism/Faraday law.md",
+    "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613180242_276.png",
+    "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613175957_531.png",
+    "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250615193942_504.png",
+    "Machine Learning/NLP/LLMs/Diffusion Language Models/Dream 7B/Pasted Image 20250615085649_337.png",
+    "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250614105206_253.png",
     "Machine Learning/NLP/LLMs/LLaDA/Pasted Image 20250613180242_276.png",
-    "Machine Learning/NLP/LLMs/LLaDA/Pasted Image 20250614105206_253.png",
-    "Machine Learning/NLP/LLMs/LLaDA/Pasted Image 20250613175957_531.png",
     "Computers/Computer Architecture/Risc-V/Untitled.canvas",
     "Math/Calculus/Sequences and series/Untitled.canvas",
     "Untitled.canvas"
