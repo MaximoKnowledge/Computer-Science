@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "18092a485997af87",
+        "id": "6e56faa8b5168874",
         "type": "tabs",
         "children": [
           {
-            "id": "193dad58fc4df890",
+            "id": "31a2792ceb9ddb4d",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Machine Learning/Unsupervised Learning/Anomaly Detection.md"
+                "file": "Computers/Computer Architecture/CPU/Processes/Process and Thread Synchronization.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Anomaly Detection"
+              "title": "Process and Thread Synchronization"
             }
           }
         ]
@@ -171,12 +171,18 @@
       "templates:Insert template": false
     }
   },
-  "active": "193dad58fc4df890",
+  "active": "31a2792ceb9ddb4d",
   "lastOpenFiles": [
-    "Machine Learning/Supervised Learning/NLP/LLMs/Confident Adaptative Language Modeling.md",
-    "Machine Learning/Unsupervised Learning/Anomaly Detection.md",
-    "Machine Learning/Unsupervised Learning/K-means.md",
     "Miscellaneous/Math Whiteboard.md",
+    "Computers/Computer Architecture/CPU/Processes/Process and Thread Synchronization.md",
+    "Computers/Computer Architecture/CPU/Processes/Multi-threaded processes.md",
+    "Untitled.md",
+    "Math/Probability and Statistics/Discrete Distributions/Discrete Random Variables Introduction.md",
+    "Math/Calculus/Curves Introduction.md",
+    "Math/Probability and Statistics/Probability fundamentals/Definition Probability.md",
+    "Machine Learning/Unsupervised Learning/Anomaly Detection.md",
+    "Machine Learning/Supervised Learning/NLP/LLMs/Confident Adaptative Language Modeling.md",
+    "Machine Learning/Unsupervised Learning/K-means.md",
     "Machine Learning/Supervised Learning",
     "Machine Learning/Generative Models",
     "Machine Learning/Unsupervised Learning",
@@ -197,18 +203,12 @@
     "Bibliography/Books/Graph ML/Graph Machine Learning Take graph data to the next level.pdf",
     "Machine Learning/Supervised Learning/Deep Learning",
     "Computers/Programming/Java/Syncronization.md",
-    "Computers/Computer Architecture/CPU/Processes/Multi-threaded processes.md",
-    "Computers/Computer Architecture/CPU/Processes/Process and Thread Synchronization.md",
-    "Math/Probability and Statistics/Discrete Distributions/Discrete Random Variables Introduction.md",
     "Math/Probability and Statistics/Discrete Distributions",
     "Math/Calculus/Derivatives/Gradient and Differentiability.md",
     "Machine Learning/Automatic Differentiation/Derivatives and Jacobians as linear maps.md",
     "Miscellaneous/Images/Pasted Image 20251023120719_694.png",
-    "Machine Learning/Automatic Differentiation/Automatic Differentiation Introduction.md",
-    "Machine Learning/Automatic Differentiation/Forward and Reverse mode Automatic Differentiation.md",
     "Pasted Image 20251023115821_600.png",
     "Miscellaneous/Images",
-    "Math/Calculus/Derivatives/Hessian.md",
     "Miscellaneous/General OneNote/Data Management U1.one",
     "Miscellaneous/General OneNote/New Section 1.one",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613180242_276.png",
