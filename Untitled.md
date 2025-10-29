@@ -1,0 +1,1 @@
+	$Q_{t}=\left[\begin{matrix} q(x^1_{t}|x^1_{t-1})  & q(x^2_{t}|x^1_{t-1})  & \dots & q(x^{K}_{t}|x^1_{t-1}) \\ \vdots & \vdots & \ddots & \vdots \\ q(x^1_{t}|x^i_{t-1})  & q(x^2_{t}|x^i_{t-1})  & \dots & q(x^{K}_{t}|x^i_{t-1}) \\ \vdots & \vdots & \ddots & \vdots \\ q(x^1_{t}|x^K_{t-1})  & q(x^2_{t}|x^K_{t-1})  & \dots & q(x^{K}_{t}|x^K_{t-1})\end{matrix}\right]$
