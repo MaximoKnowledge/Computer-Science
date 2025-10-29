@@ -13,10 +13,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Machine Learning/Supervised Learning/Computer Vision/Convolution Basics.md"
+                "file": "Math/Probability and Statistics/Probability fundamentals/Conditional Probability.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Convolution Basics"
+              "title": "Conditional Probability"
             }
           }
         ]
@@ -76,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d483fb95c0a6fec1",
@@ -171,9 +170,10 @@
       "templates:Insert template": false
     }
   },
-  "active": "5994fa4e96dcd64e",
+  "active": "b16ae22e021a29d7",
   "lastOpenFiles": [
     "Miscellaneous/Math Whiteboard.md",
+    "Math/Probability and Statistics/Probability fundamentals/Conditional Probability.md",
     "Machine Learning/Supervised Learning/Computer Vision/Convolution Basics.md",
     "Machine Learning/Reinforcement Learning/LLM post-training.md",
     "Physics/Dynamical Systems/Thermodynamics/First law of thermodynamics.md",
@@ -212,7 +212,6 @@
     "Physics/Eletromagnetism/Electric potential energy.md",
     "Physics/Eletromagnetism/Electromagnetism introduction.md",
     "Physics/Eletromagnetism/Magnetic fields and Electric Current.md",
-    "Physics/Eletromagnetism/Faraday law.md",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613180242_276.png",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613175957_531.png",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250615193942_504.png",
