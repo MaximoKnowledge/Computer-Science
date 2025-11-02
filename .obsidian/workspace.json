@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "cca1b0b2ec5c8d38",
+        "id": "ff38247dd0fef5d4",
         "type": "tabs",
         "children": [
           {
-            "id": "7b84c61438d5829a",
+            "id": "ad572fd9ba4e11f5",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Machine Learning/Recommendation Systems/Recommendation Systems Intro.md"
+                "file": "Machine Learning/Supervised Learning/NLP/RNNs/RNNs, GRUs and LSTMs.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Recommendation Systems Intro"
+              "title": "RNNs, GRUs and LSTMs"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Recommendation Systems/Recommendation Systems Intro.md",
+                "file": "Machine Learning/Recommendation Systems/Recommendation Systems Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Recommendation Systems Intro"
+              "title": "Backlinks for Recommendation Systems Introduction"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Recommendation Systems/Recommendation Systems Intro.md",
+                "file": "Machine Learning/Recommendation Systems/Recommendation Systems Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Recommendation Systems Intro"
+              "title": "Outgoing links from Recommendation Systems Introduction"
             }
           },
           {
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Recommendation Systems/Recommendation Systems Intro.md",
+                "file": "Machine Learning/Recommendation Systems/Recommendation Systems Introduction.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Recommendation Systems Intro"
+              "title": "Outline of Recommendation Systems Introduction"
             }
           }
         ]
@@ -170,9 +170,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7b84c61438d5829a",
+  "active": "ad572fd9ba4e11f5",
   "lastOpenFiles": [
     "Miscellaneous/Math Whiteboard.md",
-    "Machine Learning/Recommendation Systems/Recommendation Systems Intro.md"
+    "Machine Learning/Supervised Learning/NLP/RNNs/RNNs, GRUs and LSTMs.md",
+    "Machine Learning/Recommendation Systems/Recommendation Systems Introduction.md",
+    "Machine Learning/Supervised Learning/NLP/RNNs"
   ]
 }
