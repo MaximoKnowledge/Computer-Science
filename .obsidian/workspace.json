@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ff38247dd0fef5d4",
+        "id": "ddab9266842f4ccd",
         "type": "tabs",
         "children": [
           {
-            "id": "ad572fd9ba4e11f5",
+            "id": "e5c99287e2ab71f6",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Machine Learning/Supervised Learning/NLP/RNNs/RNNs, GRUs and LSTMs.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "RNNs, GRUs and LSTMs"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -76,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "5e43acc20bdf040d",
@@ -170,10 +167,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ad572fd9ba4e11f5",
+  "active": "79f2569fb05c1d6e",
   "lastOpenFiles": [
     "Miscellaneous/Math Whiteboard.md",
+    "Machine Learning/Supervised Learning/NLP/Algorithms and Metrics/Beam Search and Length Normalisation.md",
     "Machine Learning/Supervised Learning/NLP/RNNs/RNNs, GRUs and LSTMs.md",
+    "Machine Learning/Supervised Learning/NLP/Algorithms and Metrics",
     "Machine Learning/Recommendation Systems/Recommendation Systems Introduction.md",
     "Machine Learning/Supervised Learning/NLP/RNNs"
   ]
