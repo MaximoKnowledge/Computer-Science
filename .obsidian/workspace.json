@@ -1,22 +1,14 @@
 {
   "main": {
-    "id": "ba04550905da71c1",
+    "id": "520e29c988d9b2a6",
     "type": "split",
     "children": [
       {
-<<<<<<< HEAD
-        "id": "3c8fcc3a6f0ba765",
+        "id": "90c1b7dd77f22211",
         "type": "tabs",
         "children": [
           {
-            "id": "5994fa4e96dcd64e",
-=======
-        "id": "ddab9266842f4ccd",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e5c99287e2ab71f6",
->>>>>>> a44579fdc16da33bd1e654d361063ce15f03d3f3
+            "id": "8d23fe93e7fa5207",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -31,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "b9221c04f3d312fb",
+    "id": "c1b27cf7a81bde91",
     "type": "split",
     "children": [
       {
-        "id": "7c1a86f02e9e5e9f",
+        "id": "ad4b0ec39e238790",
         "type": "tabs",
         "children": [
           {
-            "id": "79f2569fb05c1d6e",
+            "id": "b16ae22e021a29d7",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -52,7 +44,7 @@
             }
           },
           {
-            "id": "8e1ea606a07b10ea",
+            "id": "4e86ab9fc71b548a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -69,7 +61,7 @@
             }
           },
           {
-            "id": "40dc08fbb033bb5f",
+            "id": "1490e55f88b20d7b",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -85,48 +77,48 @@
     "width": 300
   },
   "right": {
-    "id": "5e43acc20bdf040d",
+    "id": "d483fb95c0a6fec1",
     "type": "split",
     "children": [
       {
-        "id": "e9ff245b9412e913",
+        "id": "111dded116871509",
         "type": "tabs",
         "children": [
           {
-            "id": "1079cc8e5696989e",
+            "id": "f39b15c8b049dbf4",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Recommendation Systems/Recommendation Systems Introduction.md",
+                "file": "Physics/Dynamical Systems/Mechanics/Dynamics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Recommendation Systems Introduction"
+              "title": "Backlinks for Dynamics"
             }
           },
           {
-            "id": "45f5e3727a8951eb",
+            "id": "422eacb38909cab6",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Recommendation Systems/Recommendation Systems Introduction.md",
+                "file": "Continuous fumctions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Recommendation Systems Introduction"
+              "title": "Outgoing links from Continuous fumctions"
             }
           },
           {
-            "id": "42fc7e2e50667b6f",
+            "id": "f1b556490543af09",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -141,21 +133,22 @@
             }
           },
           {
-            "id": "27fe63b323dc303b",
+            "id": "dafb3148344ed8fe",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Recommendation Systems/Recommendation Systems Introduction.md",
-                "followCursor": false,
-                "showSearch": false,
+                "file": "Computers/Data Science/Data Management/Third Normal Form and Keys.md",
+                "followCursor": true,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Recommendation Systems Introduction"
+              "title": "Outline of Third Normal Form and Keys"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -165,19 +158,29 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "templater-obsidian:Templater": false
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "daily-notes:Open today's daily note": false,
+      "templater-obsidian:Templater": false,
+      "graph:Open graph view": false,
+      "bases:Create new base": false,
+      "templates:Insert template": false
     }
   },
-<<<<<<< HEAD
   "active": "b16ae22e021a29d7",
   "lastOpenFiles": [
+    "Miscellaneous/Images/Pasted Image 20251029172655_248.png",
+    "Miscellaneous/General OneNote/Calculus 2.one",
+    "Math/Calculus/Integrals/Line Integrals.md",
+    "Machine Learning/Supervised Learning/NLP/RNNs/RNNs, GRUs and LSTMs.md",
+    "Machine Learning/Supervised Learning/NLP/RNNs",
+    "Machine Learning/Supervised Learning/NLP/Algorithms and Metrics/Beam Search and Length Normalisation.md",
+    "Machine Learning/Supervised Learning/NLP/Algorithms and Metrics",
+    "Machine Learning/Recommendation Systems/Recommendation Systems Introduction.md",
+    "Machine Learning/Recommendation Systems",
+    "Computers/Networks/TCP explained.md",
+    "Computers/Networks/TCP and UDP Introduction.md",
     "Untitled.md",
     "Math/Probability and Statistics/Probability fundamentals/Conditional Probability.md",
     "Miscellaneous/Math Whiteboard.md",
@@ -207,17 +210,6 @@
     "Machine Learning/Supervised Learning/Deep Learning/ML projects tips.md",
     "Machine Learning/Supervised Learning/Deep Learning/Neural Networks Introduction.md",
     "Machine Learning/Supervised Learning/Deep Learning/Batch Normalization.md",
-    "Machine Learning/Supervised Learning/Deep Learning/Deep Learning Optimization Algorithms.md",
-    "Machine Learning/Supervised Learning/Computer Vision/ViT",
-    "Machine Learning/Supervised Learning/Computer Vision/Siamese Network and Style Transfer.md",
-    "Machine Learning/Supervised Learning/Computer Vision/CLIP",
-    "Machine Learning/Supervised Learning/Classical ML/Decision Trees",
-    "Machine Learning/Supervised Learning/NLP",
-    "Machine Learning/Generative Models/Diffusion Models/Structured Denoising Diffusion Models in Discrete State-Spaces.md",
-    "Machine Learning/Generative Models/Diffusion Models/Deep Unsupervised Learning using Nonequilibrium Thermodynamics.md",
-    "Computers/Computer Architecture/CPU/Processes/Process and Thread Synchronization.md",
-    "Physics/Eletromagnetism/Electric potential energy.md",
-    "Physics/Eletromagnetism/Electromagnetism introduction.md",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613180242_276.png",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250613175957_531.png",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250615193942_504.png",
@@ -227,15 +219,5 @@
     "Computers/Computer Architecture/Risc-V/Untitled.canvas",
     "Math/Calculus/Sequences and series/Untitled.canvas",
     "Untitled.canvas"
-=======
-  "active": "79f2569fb05c1d6e",
-  "lastOpenFiles": [
-    "Miscellaneous/Math Whiteboard.md",
-    "Machine Learning/Supervised Learning/NLP/Algorithms and Metrics/Beam Search and Length Normalisation.md",
-    "Machine Learning/Supervised Learning/NLP/RNNs/RNNs, GRUs and LSTMs.md",
-    "Machine Learning/Supervised Learning/NLP/Algorithms and Metrics",
-    "Machine Learning/Recommendation Systems/Recommendation Systems Introduction.md",
-    "Machine Learning/Supervised Learning/NLP/RNNs"
->>>>>>> a44579fdc16da33bd1e654d361063ce15f03d3f3
   ]
 }
