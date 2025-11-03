@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "90c1b7dd77f22211",
+        "id": "cc3b776aadc7ff8c",
         "type": "tabs",
         "children": [
           {
-            "id": "8d23fe93e7fa5207",
+            "id": "1009c1ead2896b58",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "excalidraw",
+              "state": {
+                "file": "Math/Probability and Statistics/Probability fundamentals/Conditional Probability.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Conditional Probability"
             }
           }
         ]
@@ -168,8 +170,12 @@
       "templates:Insert template": false
     }
   },
-  "active": "b16ae22e021a29d7",
+  "active": "1009c1ead2896b58",
   "lastOpenFiles": [
+    "Miscellaneous/Math Whiteboard.md",
+    "Math/Probability and Statistics/Probability fundamentals/Conditional Probability.md",
+    "Math/Calculus/Curves Introduction.md",
+    "Untitled.md",
     "Miscellaneous/Images/Pasted Image 20251029172655_248.png",
     "Miscellaneous/General OneNote/Calculus 2.one",
     "Math/Calculus/Integrals/Line Integrals.md",
@@ -181,9 +187,6 @@
     "Machine Learning/Recommendation Systems",
     "Computers/Networks/TCP explained.md",
     "Computers/Networks/TCP and UDP Introduction.md",
-    "Untitled.md",
-    "Math/Probability and Statistics/Probability fundamentals/Conditional Probability.md",
-    "Miscellaneous/Math Whiteboard.md",
     "Machine Learning/Supervised Learning/Computer Vision/Convolution Basics.md",
     "Machine Learning/Reinforcement Learning/LLM post-training.md",
     "Physics/Dynamical Systems/Thermodynamics/First law of thermodynamics.md",
@@ -215,7 +218,6 @@
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250615193942_504.png",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/Dream 7B/Pasted Image 20250615085649_337.png",
     "Machine Learning/NLP/LLMs/Diffusion Language Models/LLaDA/Pasted Image 20250614105206_253.png",
-    "Machine Learning/NLP/LLMs/LLaDA/Pasted Image 20250613180242_276.png",
     "Computers/Computer Architecture/Risc-V/Untitled.canvas",
     "Math/Calculus/Sequences and series/Untitled.canvas",
     "Untitled.canvas"
