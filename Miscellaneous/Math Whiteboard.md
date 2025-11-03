@@ -1,4 +1,4 @@
-$\prod^n_{j=1} \frac{1}{\sqrt{ 2\pi }σ_{j}}e^{-\left( \frac{(x_{j}-μ_{j})^2}{2σ_{j}^2} \right)}$
+$\frac{1}{T_{y}^α} \sum^{T_y}_{t=1} \log P(y^{<t>}|x,y^{<1>},\dots,y^{<t-1>})$
 $$
 \displaylines{
 W=W-\frac{VdW\text{corr}}{\sqrt{SdW\text{corr} }}
