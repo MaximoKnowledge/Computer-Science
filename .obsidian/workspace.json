@@ -11,10 +11,24 @@
             "id": "e5c99287e2ab71f6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "excalidraw",
+              "state": {
+                "file": "Math/Calculus/Integrals/Line Integrals.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Line Integrals"
+            }
+          },
+          {
+            "id": "5c8f89ae09fc95d0",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Math/Calculus/Curves Introduction.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Curves Introduction"
             }
           }
         ]
@@ -74,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "5e43acc20bdf040d",
@@ -167,8 +182,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "79f2569fb05c1d6e",
+  "active": "0d663d18e5d80f4b",
   "lastOpenFiles": [
+    "Math/Calculus/Curves Introduction.md",
+    "Math/Calculus/Integrals/Line Integrals.md",
     "Miscellaneous/Math Whiteboard.md",
     "Machine Learning/Supervised Learning/NLP/Algorithms and Metrics/Beam Search and Length Normalisation.md",
     "Machine Learning/Supervised Learning/NLP/RNNs/RNNs, GRUs and LSTMs.md",
