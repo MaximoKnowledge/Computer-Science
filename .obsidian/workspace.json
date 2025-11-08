@@ -4,7 +4,24 @@
     "type": "split",
     "children": [
       {
+<<<<<<< HEAD
         "id": "00509d5c16d394a9",
+=======
+<<<<<<< HEAD
+        "id": "a64fc15be66caf9b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0883a087d72345c4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+=======
+        "id": "9a1247d90c9facef",
+>>>>>>> 0f629a1f6c08c2e161c0eb9de8a89fb069ecbf40
         "type": "tabs",
         "children": [
           {
@@ -16,7 +33,24 @@
                 "file": "Machine Learning/Supervised Learning/NLP/LLMs/Diffusion Language Models/Diffusion Language Models Introduction.md"
               },
               "icon": "excalidraw-icon",
+<<<<<<< HEAD
               "title": "Diffusion Language Models Introduction"
+=======
+              "title": "Armstrong axioms"
+            }
+          },
+          {
+            "id": "c0703913107df6d6",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Computers/Data Science/Data Management/Transforming to 3NF.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Transforming to 3NF"
+>>>>>>> 98eb3f07fe484168895deb911264cf0419fc3177
+>>>>>>> 0f629a1f6c08c2e161c0eb9de8a89fb069ecbf40
             }
           }
         ]
@@ -170,7 +204,21 @@
       "templater-obsidian:Templater": false
     }
   },
+<<<<<<< HEAD
   "active": "76fbfe0df435c5ba",
+=======
+<<<<<<< HEAD
+  "active": "b16ae22e021a29d7",
+  "lastOpenFiles": [
+    "Math/Probability and Statistics/Probability fundamentals/Conditional Probability.md",
+    "Miscellaneous/Math Whiteboard.md",
+    "Math/Calculus/Curves Introduction.md",
+    "Untitled.md",
+    "Miscellaneous/Images/Pasted Image 20251029172655_248.png",
+    "Miscellaneous/General OneNote/Calculus 2.one",
+=======
+  "active": "c0703913107df6d6",
+>>>>>>> 0f629a1f6c08c2e161c0eb9de8a89fb069ecbf40
   "lastOpenFiles": [
     "Miscellaneous/Math Whiteboard.md",
     "Machine Learning/Supervised Learning/NLP/LLMs/Diffusion Language Models/Diffusion Language Models Introduction.md",
@@ -193,6 +241,7 @@
     "Computers/Computer Architecture/CPU/Processes/Multi-threaded processes.md",
     "Computers/Computer Architecture/CPU/Processes/Process and Thread Synchronization.md",
     "Computers/Computer Architecture/CPU/Processes/Process Scheduling.md",
+>>>>>>> 98eb3f07fe484168895deb911264cf0419fc3177
     "Math/Calculus/Integrals/Line Integrals.md",
     "Math/Calculus/Curves Introduction.md",
     "Machine Learning/Supervised Learning/NLP/Algorithms and Metrics/Beam Search and Length Normalisation.md",
