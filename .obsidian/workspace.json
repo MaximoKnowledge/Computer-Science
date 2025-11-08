@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "9a1247d90c9facef",
+        "id": "00509d5c16d394a9",
         "type": "tabs",
         "children": [
           {
-            "id": "f2e4546ad9b65579",
+            "id": "76fbfe0df435c5ba",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Computers/Data Science/Data Management/Armstrong axioms.md"
+                "file": "Machine Learning/Supervised Learning/NLP/LLMs/Diffusion Language Models/Diffusion Language Models Introduction.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Armstrong axioms"
-            }
-          },
-          {
-            "id": "c0703913107df6d6",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Computers/Data Science/Data Management/Transforming to 3NF.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Transforming to 3NF"
+              "title": "Diffusion Language Models Introduction"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,11 +170,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c0703913107df6d6",
+  "active": "76fbfe0df435c5ba",
   "lastOpenFiles": [
-    "Computers/Data Science/Data Management/Armstrong axioms.md",
     "Miscellaneous/Math Whiteboard.md",
+    "Machine Learning/Supervised Learning/NLP/LLMs/Diffusion Language Models/Diffusion Language Models Introduction.md",
+    "Miscellaneous/Images/WhatsApp Image 2025-11-08 at 10.53.25_13565c1f.jpg",
+    "Miscellaneous/Example.md",
+    "Miscellaneous/Images/Pasted Image 20251029172655_248.png",
+    "Miscellaneous/Images/Pasted Image 20251023120719_694.png",
+    "Machine Learning/Supervised Learning/NLP/LLMs/Autoregressive Language Models/Confident Adaptative Language Modeling.md",
+    "Machine Learning/Supervised Learning/NLP/LLMs/Autoregressive Language Models",
+    "Machine Learning/Supervised Learning/NLP/LLMs/Diffusion Language Models/LLaDA/LLaDA.md",
+    "Machine Learning/Supervised Learning/NLP/LLMs/Diffusion Language Models/Multimodal Large Diffusion Language Models MMaDA.md",
+    "Machine Learning/Supervised Learning/NLP/LLMs/Diffusion Language Models/Dream 7B.md",
     "Computers/Data Science/Data Management/Transforming to 3NF.md",
+    "Computers/Data Science/Data Management/Armstrong axioms.md",
     "Computers/Data Science/Data Management/Basic Operations Tables.md",
     "Computers/Data Science/Data Management/Relation Schemas and Functional Dependences.md",
     "Computers/Data Science/Data Management/Third Normal Form and Keys.md",
