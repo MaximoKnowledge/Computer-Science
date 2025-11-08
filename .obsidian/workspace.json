@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "cc3b776aadc7ff8c",
+        "id": "a64fc15be66caf9b",
         "type": "tabs",
         "children": [
           {
-            "id": "1009c1ead2896b58",
+            "id": "0883a087d72345c4",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Math/Probability and Statistics/Probability fundamentals/Conditional Probability.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Conditional Probability"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -170,10 +168,10 @@
       "templates:Insert template": false
     }
   },
-  "active": "1009c1ead2896b58",
+  "active": "b16ae22e021a29d7",
   "lastOpenFiles": [
-    "Miscellaneous/Math Whiteboard.md",
     "Math/Probability and Statistics/Probability fundamentals/Conditional Probability.md",
+    "Miscellaneous/Math Whiteboard.md",
     "Math/Calculus/Curves Introduction.md",
     "Untitled.md",
     "Miscellaneous/Images/Pasted Image 20251029172655_248.png",
