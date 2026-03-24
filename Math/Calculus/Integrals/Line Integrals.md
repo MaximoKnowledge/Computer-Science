@@ -35,7 +35,7 @@ regular ^E3tFOr6u
 ## Element Links
 euHteDIF: [[Math Whiteboard]]
 
-zwiNsTxU: [[Math/Calculus/Curves Introduction.md#^ULds8DZ5]]
+zwiNsTxU: [[Curves Introduction#^ULds8DZ5]]
 
 %%
 ## Drawing
