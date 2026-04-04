@@ -27,7 +27,6 @@ return function View() {
   const states = Object.keys(stateColors);
   const qualities = Object.keys(qualityColors);
 
-  // Flatten tag arrays to get unique individual tags
   const categories = [...new Set(
     allPapers.flatMap(p => {
       const t = p.value("tags");
@@ -37,7 +36,6 @@ return function View() {
     })
   )].sort();
 
-  // Helper to get tags as array
   const getTags = (p) => {
     const t = p.value("tags");
     if (Array.isArray(t)) return t;
@@ -90,7 +88,6 @@ return function View() {
     color: "white",
   });
 
-  // Fixed column widths
   const colWidths = {
     paper: "22%",
     link: "6%",
@@ -141,7 +138,7 @@ return function View() {
         <tbody>
           {visible.map(p => (
             <tr key={p.$path} style={{ borderBottom: "1px solid var(--background-modifier-border)" }}>
-              <td style={{ padding: "6px", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+              <td style={{ padding: "6px", wordBreak: "break-word" }}>
                 <a className="internal-link" href={p.$path} data-href={p.$path}>
                   {p.value("title") || p.$title || p.$path.split("/").pop().replace(".md", "")}
                 </a>
@@ -157,10 +154,10 @@ return function View() {
               <td style={{ padding: "6px" }}>
                 <span style={pill(qualityColors[p.value("quality")] || "#666")}>{p.value("quality") || "—"}</span>
               </td>
-              <td style={{ padding: "6px", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+              <td style={{ padding: "6px", wordBreak: "break-word" }}>
                 {getTags(p).join(", ") || "—"}
               </td>
-              <td style={{ padding: "6px", fontSize: "0.9em", opacity: 0.85, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+              <td style={{ padding: "6px", fontSize: "0.9em", opacity: 0.85, wordBreak: "break-word" }}>
                 {p.value("tldr") || "—"}
               </td>
             </tr>

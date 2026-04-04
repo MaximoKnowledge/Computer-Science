@@ -1,0 +1,24 @@
+---
+state: to-read
+name: "Diffusion LLMs can think EoS-by-EoS"
+link: https://arxiv.org/abs/2603.05197v1
+tldr:
+note:
+quality:
+abstract: "Diffusion LLMs have been proposed as an alternative to autoregressive LLMs, excelling especially at complex reasoning tasks with interdependent sub-goals. Curiously, this is particularly true if the generation length, i.e., the number of tokens the model has to output, is set to a much higher value than is required for providing the correct answer to the task, and the model pads its answer with end-of-sequence (EoS) tokens. We hypothesize that diffusion models think EoS-by-EoS, that is, they use the representations of EoS tokens as a hidden scratchpad, which allows them to solve harder reasoning problems. We experiment with the diffusion models LLaDA1.5, LLaDA2.0-mini, and Dream-v0 on the tasks Addition, Entity Tracking, and Sudoku. In a controlled prompting experiment, we confirm that adding EoS tokens improves the LLMs' reasoning capabilities. To further verify whether they serve as space for hidden computations, we patch the hidden states of the EoS tokens with those of a counterfactual generation, which frequently changes the generated output to the counterfactual. The success of the causal intervention underscores that the EoS tokens, which one may expect to be devoid of meaning, carry information on the problem to solve. The behavioral experiments and the causal interventions indicate that diffusion LLMs can indeed think EoS-by-EoS."
+paper id: 2603.05197v1
+authors: [Sarah Breckner, Sebastian Schuster]
+publication date: 2026-03-05T14:06
+comments: ""
+pdf: "https://arxiv.org/pdf/2603.05197v1"
+tags: []
+---
+#paper
+## Takeaways
+-
+
+## I+D
+-
+
+## Deep Dive
+
