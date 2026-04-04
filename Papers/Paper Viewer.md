@@ -9,10 +9,25 @@ return function View() {
   const [sortBy, setSortBy] = dc.useState("name");
   const [sortAsc, setSortAsc] = dc.useState(true);
   const [page, setPage] = dc.useState(0);
+  const [qualityFilter, setQualityFilter] = dc.useState("all");
   const PAGE_SIZE = 15;
+  
+  const stateColors = {
+    "read": "#4caf50",
+    "to-read": "#2196f3",
+    "reading": "#ff9800",
+    "abandoned": "#9e9e9e",
+  };
+  
+  const qualityColors = {
+	"banger": "#e91e63",
+	"good": "#4caf50",
+	"meh": "#9e9e9e",
+  };
 
   // Extract unique values for filter dropdowns
-  const states = [...new Set(allPapers.map(p => p.value("state")).filter(Boolean))];
+  const states = Object.keys(stateColors); 
+  const qualities = Object.keys(qualityColors);
   const categories = [...new Set(allPapers.map(p => p.value("category")).filter(Boolean))];
 
   // Filter
@@ -23,6 +38,7 @@ return function View() {
     if (q && !name.includes(q) && !tldr.includes(q)) return false;
     if (stateFilter !== "all" && p.value("state") !== stateFilter) return false;
     if (categoryFilter !== "all" && p.value("category") !== categoryFilter) return false;
+    if (qualityFilter !== "all" && String(p.value("quality") ?? "").trim() !== qualityFilter) return false;
     return true;
   });
 
@@ -64,15 +80,8 @@ return function View() {
     color: "white",
   });
 
-  const stateColors = {
-    "read": "#4caf50",
-    "to-read": "#2196f3",
-    "reading": "#ff9800",
-    "abandoned": "#9e9e9e",
-  };
-
   return (
-    <div>
+    <div style={{ marginLeft: "-15%", marginRight: "-15%", padding: "0 8px" }}>
       {/* ── Toolbar ── */}
       <div style={{ display: "flex", gap: "8px", flexWrap: "wrap", marginBottom: "12px", alignItems: "center" }}>
         <input
@@ -98,7 +107,15 @@ return function View() {
           <option value="all">All categories</option>
           {categories.map(c => <option key={c} value={c}>{c}</option>)}
         </select>
-        <span style={{ fontSize: "0.85em", opacity: 0.6 }}>
+        <select
+		  value={qualityFilter}
+		  onChange={e => { setQualityFilter(e.target.value); setPage(0); }}
+		  style={{ padding: "6px", borderRadius: "6px" }}
+>		
+		  <option value="all">All qualities</option>
+		  {qualities.map(r => <option key={r} value={r}>{r}</option>)}
+		</select>
+		<span style={{ fontSize: "0.85em", opacity: 0.6 }}>
           {papers.length} paper{papers.length !== 1 ? "s" : ""}
         </span>
       </div>
@@ -108,7 +125,9 @@ return function View() {
         <thead>
           <tr style={{ borderBottom: "2px solid var(--background-modifier-border)" }}>
             <th style={{ textAlign: "left", padding: "6px" }}><SortHeader field="name" label="Paper" /></th>
+            <th style={{ textAlign: "left", padding: "6px" }}>Link</th>
             <th style={{ textAlign: "left", padding: "6px" }}><SortHeader field="state" label="State" /></th>
+            <th style={{ textAlign: "left", padding: "6px" }}><SortHeader field="quality" label="Quality" /></th>
             <th style={{ textAlign: "left", padding: "6px" }}><SortHeader field="category" label="Category" /></th>
             <th style={{ textAlign: "left", padding: "6px" }}>TLDR</th>
           </tr>
@@ -116,12 +135,31 @@ return function View() {
         <tbody>
           {visible.map(p => (
             <tr key={p.$path} style={{ borderBottom: "1px solid var(--background-modifier-border)" }}>
-              <td style={{ padding: "6px" }}>{p.$link}</td>
+              <td style={{ padding: "6px" }}>
+			  <a
+			    className="internal-link"
+			    href={p.$path}
+			    data-href={p.$path}>							
+			    {p.value("name") || p.$name || p.$path.split("/").pop().replace(".md", "")}
+			    </a>
+			  </td>
+			  <td style={{ padding: "6px" }}>
+				  {p.value("link") ? (
+				<a href={p.value("link")} target="_blank" rel="noopener noreferrer" style={{ fontSize: "0.85em" }}>
+				      arXiv ↗
+				</a>
+				  ) : "—"}
+			  </td>
               <td style={{ padding: "6px" }}>
                 <span style={pill(stateColors[p.value("state")] || "#666")}>
                   {p.value("state") || "—"}
                 </span>
               </td>
+              <td style={{ padding: "6px" }}>
+				<span style={pill(qualityColors[p.value("quality")] || "#666")}>
+					{p.value("quality") || "—"}
+				</span>
+			  </td>
               <td style={{ padding: "6px" }}>{p.value("category") || "—"}</td>
               <td style={{ padding: "6px", fontSize: "0.9em", opacity: 0.85 }}>
                 {p.value("tldr") || "—"}
@@ -129,7 +167,7 @@ return function View() {
             </tr>
           ))}
           {visible.length === 0 && (
-            <tr><td colSpan={4} style={{ padding: "20px", textAlign: "center", opacity: 0.5 }}>
+            <tr><td colSpan={6} style={{ padding: "20px", textAlign: "center", opacity: 0.5 }}>
               No papers match your filters
             </td></tr>
           )}
@@ -148,3 +186,4 @@ return function View() {
   );
 }
 ```
+

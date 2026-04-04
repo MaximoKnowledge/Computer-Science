@@ -1,9 +1,12 @@
 ---
 state: to-read
-name: "Attention Is All You Need"
+name: Attention Is All You Need
 link: https://arxiv.org/abs/1706.03762
 category: transformers
-tldr: "Proposes the transformer architecture replacing RNNs entirely with self-attention"
+tldr: Proposes the transformer architecture replacing RNNs entirely with self-attention
+note:
+quality:
+  - banger
 ---
 #paper
 ## Takeaways
