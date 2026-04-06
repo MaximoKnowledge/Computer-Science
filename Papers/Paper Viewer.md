@@ -13,6 +13,7 @@ return function View() {
 
   const stateColors = {
     "read": "#4caf50",
+    "skimmed": "#2acaea",
     "to-read": "#2196f3",
     "reading": "#ff9800",
     "abandoned": "#9e9e9e",
@@ -22,6 +23,16 @@ return function View() {
     "banger": "#e91e63",
     "good": "#4caf50",
     "meh": "#9e9e9e",
+  };
+
+  const tagColorCache = {};
+  const tagColor = (tag) => {
+    if (tagColorCache[tag]) return tagColorCache[tag];
+    let h = 0;
+    for (let i = 0; i < tag.length; i++) h = tag.charCodeAt(i) + ((h << 5) - h);
+    const hue = ((h % 360) + 360) % 360;
+    tagColorCache[tag] = `hsl(${hue}, 55%, 45%)`;
+    return tagColorCache[tag];
   };
 
   const states = Object.keys(stateColors);
@@ -38,7 +49,7 @@ return function View() {
 
   const getTags = (p) => {
     const t = p.value("tags");
-    if (Array.isArray(t)) return t;
+    if (Array.isArray(t)) return [...t].sort();
     if (t) return [t];
     return [];
   };
@@ -55,10 +66,16 @@ return function View() {
   });
 
   papers = [...papers].sort((a, b) => {
-    const va = (a.value(sortBy) || a.$title || "").toString().toLowerCase();
-    const vb = (b.value(sortBy) || b.$title || "").toString().toLowerCase();
-    return sortAsc ? va.localeCompare(vb) : vb.localeCompare(va);
-  });
+	  let va, vb;
+	  if (sortBy === "title") {
+	    va = (a.value("title") || a.$title || a.$path.split("/").pop().replace(".md", "")).toLowerCase();
+	    vb = (b.value("title") || b.$title || b.$path.split("/").pop().replace(".md", "")).toLowerCase();
+	  } else {
+	    va = (a.value(sortBy) || "").toString().toLowerCase();
+	    vb = (b.value(sortBy) || "").toString().toLowerCase();
+	  }
+	  return sortAsc ? va.localeCompare(vb) : vb.localeCompare(va);
+	});
 
   const totalPages = Math.max(1, Math.ceil(papers.length / PAGE_SIZE));
   const safePage = Math.min(page, totalPages - 1);
@@ -90,11 +107,11 @@ return function View() {
 
   const colWidths = {
     paper: "22%",
-    link: "6%",
+    link: "7%",
     state: "9%",
     quality: "9%",
     tags: "14%",
-    tldr: "40%",
+    tldr: "39%",
   };
 
   return (
@@ -155,7 +172,21 @@ return function View() {
                 <span style={pill(qualityColors[p.value("quality")] || "#666")}>{p.value("quality") || "—"}</span>
               </td>
               <td style={{ padding: "6px", wordBreak: "break-word" }}>
-                {getTags(p).join(", ") || "—"}
+                {getTags(p).length > 0 ? (
+                  <div style={{ display: "flex", flexWrap: "wrap", gap: "4px" }}>
+                    {getTags(p).map(tag => (
+                      <span key={tag} style={{
+                        display: "inline-block",
+                        padding: "2px 8px",
+                        borderRadius: "12px",
+                        fontSize: "0.75em",
+                        backgroundColor: tagColor(tag),
+                        color: "white",
+                        whiteSpace: "nowrap",
+                      }}>{tag}</span>
+                    ))}
+                  </div>
+                ) : "—"}
               </td>
               <td style={{ padding: "6px", fontSize: "0.9em", opacity: 0.85, wordBreak: "break-word" }}>
                 {p.value("tldr") || "—"}
