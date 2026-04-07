@@ -3,7 +3,7 @@ state: read
 name: "Flow map matching with stochastic interpolants: A mathematical framework for consistency models"
 link: https://arxiv.org/abs/2406.07507v2
 tldr: Defined a Flow-map, which is a new type of consistency model
-note:
+note: obsidian://open?vault=Computer%20Science&file=Machine%20Learning%2FGenerative%20Models%2FFlow%20and%20score-based%20models%2FFlow%20map%20matching
 quality:
   - banger
 abstract: Generative models based on dynamical equations such as flows and diffusions offer exceptional sample quality, but require computationally expensive numerical integration during inference. The advent of consistency models has enabled efficient one-step or few-step generation, yet despite their practical success, a systematic understanding of their design has been hindered by the lack of a comprehensive theoretical framework. Here we introduce Flow Map Matching (FMM), a principled framework for learning the two-time flow map of an underlying dynamical generative model, thereby providing this missing mathematical foundation. Leveraging stochastic interpolants, we propose training objectives both for distillation from a pre-trained velocity field and for direct training of a flow map over an interpolant or a forward diffusion process. Theoretically, we show that FMM unifies and extends a broad class of existing approaches for fast sampling, including consistency models, consistency trajectory models, and progressive distillation. Experiments on CIFAR-10 and ImageNet-32 highlight that our approach can achieve sample quality comparable to flow matching while reducing generation time by a factor of 10-20.
@@ -22,13 +22,12 @@ tags:
 ---
 #paper
 ## Takeaways
--
+- 
 
 ## I+D
 -
 
 ## Deep Dive
 
-##### Definition Flow-map $X_{s,t}:\mathbb{R}^d\to \mathbb{R}^d$
-$X_{s,t}(x_{s})=x_{t}, \forall \, (s,t) \in [0,1]^2$
+
 
