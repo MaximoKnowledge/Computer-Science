@@ -26,7 +26,9 @@ tags:
 #paper
 ## Takeaways
 - When doing flow-matching with paired data $(x_{0},x_{1})$ and constructing OT paths (i.e. linear), there's a chance of flow-crossing, in which two different couplings get the same $x_t$ and in that case the solution just becomes the average. 
-- 
+- They propose a Flow Walking model, that essentially integrates in three steps from $x_0$ to $x_1$ essentially avoiding crossings
+- They show that among middle layers the crossing is low (recoupling ratio)
+- The whole paper is bad in quality, and leaves a lot of question in whether flow-matching can be applied
 
 ## I+D
 -
