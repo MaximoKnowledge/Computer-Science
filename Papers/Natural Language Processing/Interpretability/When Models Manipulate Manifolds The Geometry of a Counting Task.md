@@ -1,5 +1,5 @@
 ---
-state: to-read
+state: read
 name: "When Models Manipulate Manifolds: The Geometry of a Counting Task"
 link: https://arxiv.org/abs/2601.04480v1
 tldr: Defined through various experiments how Claude Haiku represents character count. Rigorously characterised the spanned subspace
