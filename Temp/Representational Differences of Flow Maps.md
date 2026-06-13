@@ -138,7 +138,8 @@ More concretely:
 
 For each trained model, evaluate all three consistency residuals, not only the one it was trained on.
 
-For a grid of ((s,t,u)), compute: $$  
+For a grid of ($(s,t,u)$), compute: 
+$$  
 R_{\text{Lag}}(s,t,x)
 =
  \left|  
@@ -146,7 +147,9 @@ R_{\text{Lag}}(s,t,x)
 
 v_{t,t}(X_{s,t}(x))  
 \right|,  
-$$$$  
+$$
+
+$$  
 R_{\text{Eul}}(s,t,x)
 =
 \left|  
@@ -155,6 +158,7 @@ R_{\text{Eul}}(s,t,x)
 \nabla X_{s,t}(x)v_{s,s}(x)  
 \right|,  
 $$
+
 $$  
 R_{\text{Semi}}(s,u,t,x) = \left|  
 X_{s,t}(x)
@@ -258,27 +262,24 @@ Because independently trained networks may use different bases, this experiment 
 ### 5. Vector-Swap Experiments at the Flow-Map Level
 
 In addition to hidden-state patching, directly swap predicted displacement vectors
-
 $$  
 v_{s,t}(x)  
 $$
 
 or intermediate transported points
-
 $$  
 X_{s,u}(x)  
 $$
 
 across models.
 
-For example: $$  
-\tilde{X}_{s,t}(x)
-
+For example: 
+$$  
+\tilde{X}_{s,t}(x) =
 x + (t-s)v_{s,t}^{\text{LSD}}(x),  
 $$
 
 inside a PSD composition test:
-
 $$  
 X_{u,t}^{\text{PSD}}(\tilde{X}_{s,u}(x)).  
 $$
