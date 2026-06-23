@@ -1,5 +1,5 @@
 ---
-state: to-read
+state: skimmed
 name: Diffusion Language Models Are Natively Length-Aware
 link: https://arxiv.org/abs/2603.06123v1
 tldr: Computed the cumulative probability of EOS not being at position i and used it to crop the sequence when this cumulative probability drops below a threshold

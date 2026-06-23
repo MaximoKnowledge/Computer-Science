@@ -1,5 +1,5 @@
 ---
-state: to-read
+state: abandoned
 name: "NITP: Next Implicit Token Prediction for LLM Pre-training"
 link: https://arxiv.org/abs/2605.24956v1
 tldr: Introduced Deep Supervision for consistency in pre-training representation of tokens, arguing that it avoids the model overfitting the one-hot representations and creating better concept embeddings
