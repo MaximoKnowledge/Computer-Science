@@ -25,8 +25,6 @@ tags:
 ---
 #paper
 ## Takeaways
-- ## Takeaways — DLM-Scope
-
 * Trained Top-K SAEs on DLM residual streams for both MASK and UNMASK token positions
   (separate SAEs per strategy). Width 16K, 6 layers × 6 sparsity levels per model.
 * Inserting SAEs into early DLM layers can *reduce* cross-entropy loss (negative ΔLM loss),
