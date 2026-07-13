@@ -54,8 +54,12 @@ return function View() {
     return [];
   };
 
+  // The human-readable paper title lives in the frontmatter `name` field
+  // (no paper uses `title`). Fall back to the file basename if `name` is missing.
+  const getTitle = (p) => p.value("name") || p.$path.split("/").pop().replace(/\.md$/, "");
+
   let papers = allPapers.filter(p => {
-    const title = (p.value("title") || p.$title || "").toLowerCase();
+    const title = getTitle(p).toLowerCase();
     const tldr = (p.value("tldr") || "").toLowerCase();
     const q = search.toLowerCase();
     if (q && !title.includes(q) && !tldr.includes(q)) return false;
@@ -68,8 +72,8 @@ return function View() {
   papers = [...papers].sort((a, b) => {
 	  let va, vb;
 	  if (sortBy === "title") {
-	    va = (a.value("title") || a.$title || a.$path.split("/").pop().replace(".md", "")).toLowerCase();
-	    vb = (b.value("title") || b.$title || b.$path.split("/").pop().replace(".md", "")).toLowerCase();
+	    va = getTitle(a).toLowerCase();
+	    vb = getTitle(b).toLowerCase();
 	  } else {
 	    va = (a.value(sortBy) || "").toString().toLowerCase();
 	    vb = (b.value(sortBy) || "").toString().toLowerCase();
@@ -157,7 +161,7 @@ return function View() {
             <tr key={p.$path} style={{ borderBottom: "1px solid var(--background-modifier-border)" }}>
               <td style={{ padding: "6px", wordBreak: "break-word" }}>
                 <a className="internal-link" href={p.$path} data-href={p.$path}>
-                  {p.value("title") || p.$title || p.$path.split("/").pop().replace(".md", "")}
+                  {getTitle(p)}
                 </a>
               </td>
               <td style={{ padding: "6px" }}>
