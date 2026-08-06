@@ -1,5 +1,5 @@
 ---
-state: skimmed
+state: read
 name: Simplifying, Stabilizing and Scaling Continuous-Time Consistency Models
 link: https://arxiv.org/abs/2410.11081v2
 tldr: Proposed an alternative way of training continuous-time CMs which greatly improves training stability
@@ -21,7 +21,7 @@ tags:
 ---
 #paper
 ## Takeaways
-For an introduction to Consistency Models see [intro](Consistency Models Introduction)
+For an introduction to Consistency Models see [Consistency Models Introduction](obsidian://open?vault=Computer%20Science&file=Machine%20Learning%2FGenerative%20Models%2FConsistency%20Models%2FConsistency%20Models%20Introduction)
 
 * They introduce **TrigFlow**, which gives data and noise the same variance and mixes them through a rotation:
 $$
@@ -38,8 +38,7 @@ $$
   \frac{\mathrm dx_t}{\mathrm dt}
   =
   \sigma_dF_\theta\!\left(\frac{x_t}{\sigma_d},c_{\mathrm{noise}}(t)\right),
-  $$
-  $$
+  $$$$
   \mathcal L_{\mathrm{Diff}}
   =
   \mathbb E\left[
@@ -53,14 +52,12 @@ $$
   \cos(t)x_t-\sin(t)\sigma_d
   F_\theta\!\left(\frac{x_t}{\sigma_d},c_{\mathrm{noise}}(t)\right).
   $$  Therefore $f_\theta(x,0)=x$ automatically, rather than requiring the boundary condition to be learned.
-
 * Under this parameterization, the tangent used for continuous consistency training is  $$
   \frac{\mathrm df_{\theta^-}}{\mathrm dt}
   =
   -\cos(t)\left(\sigma_dF_{\theta^-}-\frac{\mathrm dx_t}{\mathrm dt}\right)
   -\sin(t)\left(x_t+\sigma_d\frac{\mathrm dF_{\theta^-}}{\mathrm dt}\right).
   $$  The unstable component is mainly the time derivative inside $\mathrm dF_{\theta^-}/\mathrm dt$, rather than the input Jacobian or the ODE velocity (surprisingly, as Jacobians tend to be nasty).
-
 * They decompose the problematic time derivative as
 $$
   \sin(t)\partial_tF_{\theta^-}
@@ -73,15 +70,11 @@ $$
 
   This decomposition motivates three architectural changes.
 
-* **Use the identity time transformation.** Translating the EDM parameterization into TrigFlow gives
-
-  $$
+* **Use the identity time transformation.** Translating the EDM parameterization into TrigFlow gives  $$
   c_{\mathrm{noise}}(t)=\log\!\left(\sigma_d\tan(t)\right),
   \qquad
   \sin(t)c_{\mathrm{noise}}'(t)=\frac{1}{\cos(t)}.
-  $$
-
-  This diverges as $t\to\pi/2$. They instead use  $$
+  $$This diverges as $t\to\pi/2$. They instead use  $$
   c_{\mathrm{noise}}(t)=t.
   $$
 * **Use positional timestep embeddings instead of high-scale Fourier embeddings.** For a generic sinusoidal feature,
@@ -97,17 +90,13 @@ $$
 
   A large Fourier scale $s$ directly amplifies and makes the time derivative highly oscillatory. The positional embeddings used in the paper are approximately equivalent to using a small Fourier scale $s\approx0.02$, producing much smoother timestep derivatives.
 
-* After the TrigFlow and architecture changes, the continuous-time CM gradient becomes
-
-  $$
+* After the TrigFlow and architecture changes, the continuous-time CM gradient becomes  $$
   \nabla_\theta\mathbb E\left[
   -w(t)\sigma_d\sin(t)
   F_\theta^\top
   \frac{\mathrm df_{\theta^-}}{\mathrm dt}
   \right].
-  $$
-
-  Most remaining gradient variance comes from the tangent itself.
+  $$  Most remaining gradient variance comes from the tangent itself.
 
 * **Tangent normalization** explicitly limits this variance. In the implementation they work with
 $$
@@ -137,11 +126,7 @@ $$
   \right].
   $$ Although $F_\theta$ and $F_{\theta^-}$ have the same forward value, gradients only pass through $F_\theta$. The learned weight attempts to equalize loss scales across noise levels. They also incorporate the prior weighting  $$
   w_{\mathrm{prior}}(t)=\frac{1}{\sigma_d\tan(t)}.
-  $$* Noise levels are sampled through the EDM log-normal proposal:  $$
-  \tau\sim\mathcal N(P_{\mathrm{mean}},P_{\mathrm{std}}^2),
-  \qquad
-  t=\arctan\!\left(\frac{e^\tau}{\sigma_d}\right).
-  $$* The same algorithm supports both training from data and distillation. The required trajectory velocity is
+  $$ The same algorithm supports both training from data and distillation. The required trajectory velocity is
 
   $$
   \frac{\mathrm dx_t}{\mathrm dt}
@@ -160,9 +145,7 @@ $$
   $$
   r=\min\!\left(1,\frac{\text{iteration}}{H}\right),
   \qquad H=10{,}000,
-  $$
-
-  $$
+  $$  $$
   g=
   -\cos^2(t)\left(\sigma_dF_{\theta^-}-\frac{\mathrm dx_t}{\mathrm dt}\right)
   -r\cos(t)\sin(t)
@@ -171,18 +154,14 @@ $$
 
   The initially unstable derivative term is therefore introduced gradually rather than at full strength from the first iteration.
 
-* Computing $\mathrm dF/\mathrm dt$ requires a Jacobian-vector product. A direct JVP can overflow in FP16 near $t=0$ or $t=\pi/2$, so they rearrange the scaled derivative:
-
-  $$
+* Computing $\mathrm dF/\mathrm dt$ requires a Jacobian-vector product. A direct JVP can overflow in FP16 near $t=0$ or $t=\pi/2$, so they rearrange the scaled derivative:  $$
   \cos(t)\sin(t)\frac{\mathrm dF}{\mathrm dt}
   =
   \nabla_{x_t/\sigma_d}F\cdot
   \left(\cos(t)\sin(t)\frac{\mathrm dx_t}{\mathrm dt}\right)
   +
   \partial_tF\left(\cos(t)\sin(t)\sigma_d\right).
-  $$
-
-  The trigonometric factors are moved inside the JVP, preventing excessively large intermediate tangents. They additionally implement a Flash-Attention-style operation that computes attention and its JVP together in one memory-efficient pass.
+  $$  The trigonometric factors are moved inside the JVP, preventing excessively large intermediate tangents. They additionally implement a Flash-Attention-style operation that computes attention and its JVP together in one memory-efficient pass.
 
 * One-step sampling directly evaluates the consistency map:  $$
   \hat x_0=f_\theta(x_T,T),
