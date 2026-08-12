@@ -27,7 +27,7 @@ $$W ^ { \top } W = \mathsf { F A C T } : = - \frac { 1 } { n \lambda } \sum _ { 
 Where W is the weight matrix being analysed and h and l are defined as follows:
 $$f ( x ; \theta ) = g ( W h ( x ), x )$$
 $$\nabla _ { h } \ell _ { i } : = \frac { \partial \ell ( g ( W h, x ) ; y _ { i } ) } { \partial h } \mid _ { h = h ( x _ { i } ) } \in \mathbb { R } ^ { d } \qquad \nabla _ { h } f _ { i } : = \frac { \partial g ( W h, x ) } { \partial h } \mid _ { h = h ( x _ { i } ) } \in \mathbb { R } ^ { d \times c }$$
-Essentially what they do is isolate the weight matrix from the rest of the network and observe its partial derivatives (note that as the loss is a scalar we get a vector, and the partial of g w.r.t. g is a matrix as g is the rest of the NN given x and the output of the matrix multiplied by h). So, what the framework buys is a local stationary guarantee of what the matrix W multiplied by its transpose converges to, which is useful when analysing learning dynamics.
+Essentially what they do is isolate the weight matrix from the rest of the network and observe its partial derivatives (note that as the loss is a scalar we get a vector, and the partial of g w.r.t. g is a matrix as g is the rest of the NN given x and the output of the matrix multiplied by h). So, what the framework buys is a local stationary guarantee of what the matrix W multiplied by its transpose converges to. It's mainly useful because we can interpret the stationary W w. W product using rank-1 matrices (which are pretty interpretable by design)
 
 ## I+D
 -
