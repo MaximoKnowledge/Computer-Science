@@ -18,7 +18,9 @@ authors:
 publication date: 2022-10-28T14:32
 comments: ""
 pdf: https://arxiv.org/pdf/2210.16156v2
-tags: []
+tags:
+  - xai
+  - representation
 ---
 #paper
 ## Takeaways
