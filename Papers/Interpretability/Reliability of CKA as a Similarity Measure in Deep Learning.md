@@ -20,7 +20,7 @@ comments: ""
 pdf: https://arxiv.org/pdf/2210.16156v2
 tags:
   - xai
-  - representation
+  - reps
 ---
 #paper
 ## Takeaways

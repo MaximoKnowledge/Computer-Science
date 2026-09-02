@@ -22,7 +22,7 @@ pdf: https://arxiv.org/pdf/2501.05398v1
 tags:
   - xai
   - cv
-  - representation
+  - reps
 ---
 #paper
 ## Takeaways
